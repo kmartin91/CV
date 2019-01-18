@@ -1,0 +1,218 @@
+{
+  "information": "Développeur & passionné je dispose de 5 ans d'expérience professionnelle dans différentes technologies web (PHP, .NET, JS)\nJe m'intéresse depuis un peu plus d'un an quasiment exclusivement au monde du Javascript (ES6,ES7).\nVous pouvez retrouver mes différents projets JS et autre sur mon Git.",
+  "experiences": [
+    {
+      "entreprise": "Renault Digital (prestation Abbeal)",
+      "intitule": "Ingénieur Etude et développement",
+      "lieu": "Rueil-Malmaison 92",
+      "dateDebut": "Mars 2015",
+      "dateFin": "Aujourd'hui",
+      "description": "- Création d'applications Node.JS / Express (utilisation du moteur de template Jade)\n- Création d'applications en JS (Vue.JS, React, Angular 1 & 2)\n- Reprise d'un ancien projet pour améliorer les performances, le code et la base de donées afin de rendre le site plus fonctionnel et rapide pour les nouveaux utilisateurs.\n- Rajout de nouvelles fonctionnalités.\n- Création de projets en ASP.NET MVC.",
+      "technologies": "Technologies utilisées: ASP.NET MVC 5, PHP (5.3), HTML 5, CSS 3, Javascript ES6 (ECMAScript 2015), Docker\nFramework/Librairies utilisés: AngularJS (1), Angular (2,4), React, Vue.JS, Node.JS, Express, Passport.JS, Jade,Jquery , Entity Framework 6"
+    },
+    {
+      "entreprise": "Arval (prestation Solutec)",
+      "intitule": "Ingénieur Etude et développement",
+      "lieu": "Rueil-Malmaison 92",
+      "dateDebut": "Mars 2015",
+      "dateFin": "Aujourd'hui",
+      "description": "- Création d'applications Node.JS / Express (utilisation du moteur de template Jade)\n- Création d'applications en JS (Vue.JS, React, Angular 1 & 2)\n- Reprise d'un ancien projet pour améliorer les performances, le code et la base de donées afin de rendre le site plus fonctionnel et rapide pour les nouveaux utilisateurs.\n- Rajout de nouvelles fonctionnalités.\n- Création de projets en ASP.NET MVC.",
+      "technologies": "Technologies utilisées: ASP.NET MVC 5, PHP (5.3), HTML 5, CSS 3, Javascript ES6 (ECMAScript 2015), Docker\nFramework/Librairies utilisés: AngularJS (1), Angular (2,4), React, Vue.JS, Node.JS, Express, Passport.JS, Jade,Jquery , Entity Framework 6"
+    },
+    {
+      "entreprise": "Skiset",
+      "intitule": "Ingénieur Recherche et développement",
+      "lieu": "Saint-Cloud 92",
+      "dateDebut": "Avril 2013",
+      "dateFin": "Octobre 2014",
+      "description": "- Création du design du site mobile de réservation Skiset\n- Développement du site mobile de réservation Skiset",
+      "technologies": "Technologies utilisées: PHP (5.3) , HTML5, CSS3, Javascript\nFramework utilisés: Zend Framework (1.12.3), Jquery (1.9) , Jquery Mobile (1.3.1)"
+    },
+    {
+      "entreprise": "Wunderman",
+      "intitule": "Développeur Web Mobile",
+      "lieu": "Boulogne-Billancourt 92",
+      "dateDebut": "Octobre 2012",
+      "dateFin": "Février 2013",
+      "description": "-Développer le site mobile des Tech'days Microsoft.\n-Développer un site comparateur de produits Hi tech pour Microsoft\n-Développement d'un jeu Facebook pour Microsoft",
+      "technologies": "Technologies utilisées: ASP.NET, HTML5, CSS3\nFramework utilisés: jQuery, jQuery Mobile"
+    },
+    {
+      "entreprise": "Renault",
+      "intitule": "Développeur Mobile",
+      "lieu": "Le Plessis-Robinson 92",
+      "dateDebut": "Octobre 2011",
+      "dateFin": "Septembre 2012",
+      "description": "-Développement d'applications Blackberry\nDéveloppement d'applications multi-plateformes via le framework Phonegap.\nDéveloppement d'un site marché d'application en PHP (Zend Framework) et Jquery mobile pour la partie mobile.",
+      "technologies": "Technologies utilisées: Java, PHP, Javascript\nFramework utilisés: jQuery, PhoneGap"
+    }
+  ],
+  "formations": [
+    {
+      "nom": "Docker for entreprise",
+      "lieu": "Saint-Cloud",
+      "description": "Formation officiel Docker US",
+      "dateDebut": "Avril 2017"
+    },
+    {
+      "nom": "ASP.NET MVC 5",
+      "lieu": "La Défense",
+      "description": "-Comprendre la philosophie MVC 6 & Entity Framework",
+      "dateDebut": "Août 2016"
+    },
+    {
+      "nom": "Université PARIS 11",
+      "lieu": "ORSAY",
+      "description": "Licence professionnelle Programmation en Environnement Réparti",
+      "dateDebut": "Octobre 2011",
+      "dateFin": "Septembre 2012"
+    },
+    {
+      "nom": "Lycées Vilgénis",
+      "lieu": "MASSY",
+      "description": "BTS Informatique de Gestion option Développeur d'applications",
+      "dateDebut": "Septembre 2009",
+      "dateFin": "Juin 2011"
+    },
+    {
+      "nom": "Lycées Vilgénis",
+      "lieu": "MASSY",
+      "description": "BAC Sciences et Technologies de la Gestion option Informatique",
+      "dateDebut": "Septembre 2008",
+      "dateFin": "Juin 2009"
+    }
+  ],
+  "passions": [
+    "CREATION MUSICALE",
+    "FOOTBALL",
+    "INFORMATIQUE",
+    "JEUX-VIDEO",
+    "MECANIQUE"
+  ],
+  "links": [
+    {
+      "icon": "github",
+      "name": "Github",
+      "url": "https://github.com/kmartin91?tab=repositories"
+    },
+    {
+      "icon": "linkedin",
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/k%C3%A9vin-martin-68126058"
+    },
+    {
+      "icon": "code",
+      "name": "CodinGame",
+      "url": "https://www.codingame.com/profile/8b9ffbe47e19f0772e75ed752756c54a838648"
+    },
+    {
+      "icon": "viadeo",
+      "name": "Viadeo",
+      "url": "https://www.viadeo.com/p/0021e7i9zgguplsq"
+    },
+    {
+      "icon": "fileCode",
+      "name": "Site perso",
+      "url": "https://www.ckoisa.net/"
+    }
+  ],
+  "competences": [
+    {
+      "label": "Programmation",
+      "values": [
+        {
+          "name": "HTML5",
+          "value": "4.3"
+        },
+        {
+          "name": "CSS3",
+          "value": "4.2"
+        },
+        {
+          "name": "PHP",
+          "value": "4.0"
+        },
+        {
+          "name": "Javascript",
+          "value": "3.8"
+        },
+        {
+          "name": ".NET",
+          "value": "3.7"
+        },
+        {
+          "name": "jQuery",
+          "value": "3.6"
+        },
+        {
+          "name": "AngularJS",
+          "value": "3.2"
+        },
+        {
+          "name": "SQL",
+          "value": "2.8"
+        },
+        {
+          "name": "React",
+          "value": "2.5"
+        },
+        {
+          "name": "VueJS",
+          "value": "2.2"
+        },
+        {
+          "name": "Merise",
+          "value": "4.0"
+        }
+      ]
+    },
+    {
+      "label": "Logiciels",
+      "values": [
+        {
+          "name": "Photoshop",
+          "value": "3.3"
+        },
+        {
+          "name": "Fl Studio",
+          "value": "3.0"
+        },
+        {
+          "name": "After Effect",
+          "value": "1.1"
+        }
+      ]
+    },
+    {
+      "label": "Langues",
+      "values": [
+        {
+          "name": "Anglais",
+          "value": "3.7"
+        },
+        {
+          "name": "Espagnol",
+          "value": "1.2"
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "M TAMIC",
+      "job": "Responsable informatique"
+    },
+    {
+      "name": "M OLIERIC",
+      "job": "Responsable informatique"
+    },
+    {
+      "name": "M VALENZA",
+      "job": "Directeur informatique"
+    },
+    {
+      "name": "M SANTUCCI",
+      "job": "Chef de projet Mobile"
+    }
+  ]
+}
