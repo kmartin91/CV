@@ -1,6 +1,5 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import _get from 'lodash/get'
 
 import Header from './Header/Header'
 import Resume from './Resume/Resume'
@@ -16,14 +15,14 @@ const Layout = ({ children }) => (
     {children}
     <Header />
 
-    <section className="leftSection">
+    <section className="main">
       <Resume />
       <Experiences />
       <Formations />
       <Passions />
     </section>
 
-    <section className="righSection">
+    <section className="aside">
       <div className="content">
         <Links />
         <Competences />

@@ -1,0 +1,45 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1em;
+}
+
+header,
+footer {
+  grid-column: 1 / span 5;
+}
+
+.main {
+  grid-column: 1 / span 3;
+}
+
+.aside {
+  grid-column: span 2;
+  background-color: #383c43;
+  color: #fff;
+}
+
+.aside .content {
+  padding: 20px 50px;
+}
+
+/**
+ Common
+ **/
+
+.title {
+  color:#494949;
+  font-size: 2rem;
+  font-weight: bold;
+  padding-top:10px;
+}

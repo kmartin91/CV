@@ -11,22 +11,16 @@ const getIcon = icon => {
   switch (icon) {
     case 'github':
       return <FaGithub />
-      break
     case 'linkedin':
       return <FaLinkedin />
-      break
     case 'code':
       return <FaCode />
-      break
     case 'viadeo':
       return <FaViadeo />
-      break
     case 'fileCode':
       return <FaFileCode />
-      break
     default:
       return <FaCode />
-      break
   }
 }
 

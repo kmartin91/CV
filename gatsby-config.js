@@ -4,7 +4,8 @@ module.exports = {
     description: `Hi!`,
     author: `@coldfuzion91`,
     lastname: 'Martin',
-    firsname: 'Kevin',
+    firstname: 'Kevin',
+    job: 'Développeur Fullstack',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -13,6 +14,19 @@ module.exports = {
       options: {
         name: `images`,
         path: `${__dirname}/src/images`,
+      },
+    },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-prettier`,
+            options: {
+              usePrettierrc: true,
+            },
+          },
+        ],
       },
     },
     `gatsby-transformer-json`,

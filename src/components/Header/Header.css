@@ -1,0 +1,28 @@
+Header {
+  display: grid;
+  grid-template-columns: repeat(50, 1fr);
+  grid-template-rows: repeat(40, 5px);
+}
+
+.logo {
+  grid-column: 2 / span 20;
+  grid-row: 5;
+  color: #494949;
+  font-weight: 700;
+  font-size: 4rem;
+}
+
+.intro {
+  grid-column: 2 / 50;
+  grid-row: 20;
+  color:#6bbae4;
+  font-size: 2.5rem;
+}
+
+.photo {
+  border-radius: 100px;
+  height: 120px;
+  width:120px;
+  grid-column: 49;
+  grid-row: 5;
+}

@@ -2,34 +2,50 @@ import React from 'react'
 import { StaticQuery, graphql } from 'gatsby'
 import Img from 'gatsby-image'
 
-const AwesomeKevinMartinProfilePicture = () => (
-  <StaticQuery
-    query={graphql`
-      query {
-        placeholderImage: file(relativePath: { eq: "kevin.jpg" }) {
-          childImageSharp {
-            fluid(maxWidth: 300) {
-              ...GatsbyImageSharpFluid
-            }
-          }
+import './Header.css'
+
+const query = graphql`
+  query {
+    placeholderImage: file(relativePath: { eq: "kevin.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 300) {
+          ...GatsbyImageSharpFluid
         }
       }
-    `}
-    render={data => (
-      <Img
-        className="photo"
-        fluid={data.placeholderImage.childImageSharp.fluid}
-      />
-    )}
+    }
+    site {
+      siteMetadata {
+        lastname
+        firstname
+        job
+      }
+    }
+  }
+`
+
+const AwesomeKevinMartinProfilePicture = () => (
+  <StaticQuery
+    query={query}
+    render={data => <Img className="photo" fluid={data.placeholderImage.childImageSharp.fluid} />}
   />
 )
 
 const Header = () => (
-  <header className="header">
-    <span className="logo">Kévin MARTIN</span>
-    <span className="intro">DÉVELOPPEUR FULLSTACK</span>
-    <AwesomeKevinMartinProfilePicture alt="Kevin MARTIN" className="photo" />
-  </header>
+  <StaticQuery
+    query={query}
+    render={data => (
+      <header className="header">
+        <h1 className="logo">{`${data.site.siteMetadata.firstname} ${
+          data.site.siteMetadata.lastname
+        }`}</h1>
+        <h2 className="intro">{data.site.siteMetadata.job}</h2>
+        <AwesomeKevinMartinProfilePicture
+          alt={`${data.firstname} ${data.lastname}`}
+          className="photo"
+        />
+      </header>
+    )}
+  />
 )
 
 export default Header

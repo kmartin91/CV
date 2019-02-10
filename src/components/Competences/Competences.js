@@ -22,22 +22,16 @@ const query = graphql`
 const Competences = () => (
   <StaticQuery
     query={query}
-    render={data => {
-      const dataJson = _get(data, 'dataJson', {})
-      const { competences } = dataJson
-      return (
-        <>
-          <span className="title">
-            <FaDesktop /> COMPETENCES
-          </span>
-          {competences.map((subcompetence, index) => {
-            return (
-              <CompetencesList key={index} competenceslist={subcompetence} />
-            )
-          })}
-        </>
-      )
-    }}
+    render={data => (
+      <>
+        <span className="title">
+          <FaDesktop /> COMPETENCES
+        </span>
+        {_get(data, 'dataJson.competences', []).map((subcompetence, index) => {
+          return <CompetencesList key={index} competenceslist={subcompetence} />
+        })}
+      </>
+    )}
   />
 )
 

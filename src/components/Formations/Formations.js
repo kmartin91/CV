@@ -4,34 +4,33 @@ import { StaticQuery, graphql } from 'gatsby'
 import { FaGraduationCap } from 'react-icons/fa'
 import Formation from './Formation'
 
+const query = graphql`
+  query FormationData {
+    dataJson {
+      formations {
+        nom
+        lieu
+        description
+        dateDebut
+        dateFin
+      }
+    }
+  }
+`
+
 const Formations = () => (
   <StaticQuery
-    query={graphql`
-      query FormationData {
-        dataJson {
-          formations {
-            nom
-            lieu
-            description
-            dateDebut
-            dateFin
-          }
-        }
-      }
-    `}
-    render={data => {
-      const formations = _get(data, 'dataJson.formations', [])
-      return (
-        <>
-          <span className="title">
-            <FaGraduationCap /> FORMATIONS
-          </span>
-          {formations.map((formation, index) => (
-            <Formation formation={formation} key={index} />
-          ))}
-        </>
-      )
-    }}
+    query={query}
+    render={data => (
+      <>
+        <span className="title">
+          <FaGraduationCap /> FORMATIONS
+        </span>
+        {_get(data, 'dataJson.formations', []).map((formation, index) => (
+          <Formation formation={formation} key={index} />
+        ))}
+      </>
+    )}
   />
 )
 
