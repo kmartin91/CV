@@ -1,0 +1,29 @@
+.skillList {
+  grid-row: 1;
+  grid-column-end: span 5;
+}
+
+.skill {
+  background-color:#FFFFFF;
+  border-radius: 50%;
+  display:inline-grid;
+  height:13px;
+  margin-left: 1px;
+  width:13px;
+}
+
+.full {
+  background-color:#6bbae4;
+}
+
+.thirty {
+  background: linear-gradient(90deg, #6bbae4 25%, #FFFFFF 75%);
+}
+
+.half {
+  background: linear-gradient(90deg, #6bbae4 50%, #FFFFFF 50%);
+}
+
+.seventy {
+  background: linear-gradient(90deg, #6bbae4 75%, #FFFFFF 25%);
+}

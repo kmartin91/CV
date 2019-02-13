@@ -1,11 +1,7 @@
 import React from 'react'
-import {
-  FaGithub,
-  FaLinkedin,
-  FaCode,
-  FaViadeo,
-  FaFileCode,
-} from 'react-icons/fa'
+import { FaGithub, FaLinkedin, FaCode, FaViadeo, FaFileCode } from 'react-icons/fa'
+
+import './Link.css'
 
 const getIcon = icon => {
   switch (icon) {
@@ -25,7 +21,7 @@ const getIcon = icon => {
 }
 
 const Link = ({ link }) => (
-  <li>
+  <li className="Link">
     {getIcon(link.icon)}
     <a href={link.url} target="_blank" rel="noopener noreferrer">
       {link.name}

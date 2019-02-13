@@ -1,4 +1,5 @@
 import React from 'react'
+import './Level.css'
 
 const Level = ({ level }) => {
   const levelValue = level

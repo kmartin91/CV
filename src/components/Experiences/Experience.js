@@ -2,7 +2,7 @@ import React from 'react'
 
 const Experience = ({ experience }) => (
   <article className="exp">
-    <div className="headlineArticle">
+    <div className="headline">
       {experience.entreprise} ({experience.lieu})
     </div>
     <div className="duration">
@@ -10,9 +10,7 @@ const Experience = ({ experience }) => (
     </div>
     <div className="clear" />
     <div className="intitule">{experience.intitule}</div>
-    <div className="description display-linebreak">
-      {experience.description}
-    </div>
+    <div className="description display-linebreak">{experience.description}</div>
     <div className="technologies">{experience.technologies}</div>
   </article>
 )

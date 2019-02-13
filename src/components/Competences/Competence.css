@@ -1,0 +1,10 @@
+.Competence {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  margin: var(--space-s) 0;
+}
+
+.nameSkill {
+  grid-column: 1 / span 6;
+  grid-row: 1;
+}

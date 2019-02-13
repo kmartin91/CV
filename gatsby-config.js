@@ -3,7 +3,7 @@ module.exports = {
     title: `Fullstack Developer`,
     description: `Hi!`,
     author: `@coldfuzion91`,
-    lastname: 'Martin',
+    lastname: 'MARTIN',
     firstname: 'Kevin',
     job: 'Développeur Fullstack',
   },

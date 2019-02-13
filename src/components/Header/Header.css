@@ -8,15 +8,15 @@ Header {
   grid-column: 2 / span 20;
   grid-row: 5;
   color: #494949;
-  font-weight: 700;
   font-size: 4rem;
 }
 
 .intro {
   grid-column: 2 / 50;
-  grid-row: 20;
-  color:#6bbae4;
+  grid-row: 25;
+  color: var(--secondary-color);
   font-size: 2.5rem;
+  text-transform: uppercase;
 }
 
 .photo {

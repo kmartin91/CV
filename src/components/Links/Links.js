@@ -4,6 +4,8 @@ import { StaticQuery, graphql } from 'gatsby'
 import { FaLink } from 'react-icons/fa'
 import Link from './Link'
 
+import './Links.css'
+
 const query = graphql`
   query LinkData {
     dataJson {
@@ -24,7 +26,7 @@ const Links = () => (
         <span className="title">
           <FaLink /> LIENS
         </span>
-        <ul>
+        <ul className="Links">
           {_get(data, 'dataJson.links', []).map((link, index) => (
             <Link link={link} key={index} />
           ))}
