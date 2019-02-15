@@ -4,7 +4,7 @@ import { StaticQuery, graphql } from 'gatsby'
 import { FaLink } from 'react-icons/fa'
 import Link from './Link'
 
-import './Links.css'
+import './Links.scss'
 
 const query = graphql`
   query LinkData {

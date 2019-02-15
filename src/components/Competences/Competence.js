@@ -1,6 +1,6 @@
 import React from 'react'
 import Level from '../Level/Level'
-import './Competence.css'
+import './Competence.scss'
 
 const Competence = ({ competence }) => (
   <>

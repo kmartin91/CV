@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaGithub, FaLinkedin, FaCode, FaViadeo, FaFileCode } from 'react-icons/fa'
 
-import './Link.css'
+import './Link.scss'
 
 const getIcon = icon => {
   switch (icon) {

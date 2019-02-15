@@ -17,6 +17,18 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-sass`,
+      options: {
+        implementation: require('sass'),
+      },
+    },
+    {
+      resolve: `gatsby-plugin-sass-resources`,
+      options: {
+        resources: `${__dirname}/src/styles/all.scss`,
+      },
+    },
+    {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
