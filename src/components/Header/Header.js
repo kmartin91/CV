@@ -1,18 +1,12 @@
 import React from 'react'
 import { StaticQuery, graphql } from 'gatsby'
-import Img from 'gatsby-image'
+
+import AwesomeKevinMartinProfilePicture from './Avatar'
 
 import './Header.scss'
 
 const query = graphql`
   query {
-    placeholderImage: file(relativePath: { eq: "kevin.jpg" }) {
-      childImageSharp {
-        fluid(maxWidth: 300) {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
     site {
       siteMetadata {
         lastname
@@ -22,13 +16,6 @@ const query = graphql`
     }
   }
 `
-
-const AwesomeKevinMartinProfilePicture = () => (
-  <StaticQuery
-    query={query}
-    render={data => <Img className="photo" fluid={data.placeholderImage.childImageSharp.fluid} />}
-  />
-)
 
 const Header = () => (
   <StaticQuery
