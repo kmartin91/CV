@@ -27,7 +27,7 @@ const Header = () => (
         }`}</h1>
         <h2 className="intro">{data.site.siteMetadata.job}</h2>
         <AwesomeKevinMartinProfilePicture
-          alt={`${data.firstname} ${data.lastname}`}
+          alt={`${data.site.siteMetadata.firstname} ${data.site.siteMetadata.lastname}`}
           className="photo"
         />
       </header>

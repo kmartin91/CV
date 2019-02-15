@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders correctly 1`] = `
+<header
+  className="header"
+>
+  <h1
+    className="logo"
+  >
+    Kevin Martin
+  </h1>
+  <h2
+    className="intro"
+  >
+    Génie du mal
+  </h2>
+  <mock-avatar
+    alt="Kevin Martin"
+    className="photo"
+  />
+</header>
+`;

@@ -1,37 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import Header from './Header/Header'
-import Resume from './Resume/Resume'
-import Experiences from './Experiences/Experiences'
-import Formations from './Formations/Formations'
-import Passions from './Passions/Passions'
-import Links from './Links/Links'
-import Competences from './Competences/Competences'
-import References from './References/References'
-
-const Layout = ({ children }) => (
-  <div className="app">
-    {children}
-    <Header />
-
-    <section className="main">
-      <Resume />
-      <Experiences />
-      <Formations />
-      <Passions />
-    </section>
-
-    <section className="aside">
-      <div className="content">
-        <Links />
-        <Competences />
-        <References />
-      </div>
-    </section>
-    <div className="clear" />
-  </div>
-)
+const Layout = ({ children }) => <div className="app">{children}</div>
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,

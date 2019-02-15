@@ -19,9 +19,7 @@ const Resume = () => (
         <span className="title">
           <FaInfoCircle /> INFORMATIONS
         </span>
-        <div className="display-linebreak">
-          {_get(data, 'dataJson.information', '')}
-        </div>
+        <div className="display-linebreak">{_get(data, 'dataJson.information', '')}</div>
       </article>
     )}
   />

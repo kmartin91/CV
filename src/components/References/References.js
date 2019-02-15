@@ -27,9 +27,7 @@ const References = () => (
           <Reference reference={reference} key={index} />
         ))}
 
-        <div className="refInfo">
-          Pour avoir les coordonnées des références contactez-moi
-        </div>
+        <div className="refInfo">Pour avoir les coordonnées des références contactez-moi</div>
       </>
     )}
   />
