@@ -1,19 +1,18 @@
-Header {
+header {
   display: grid;
-  grid-template-columns: repeat(50, 1fr);
-  grid-template-rows: repeat(40, 5px);
+  padding: $space-l;
 }
 
 .logo {
-  grid-column: 2 / span 20;
-  grid-row: 5;
+  grid-column-start: 1;
+  grid-row-start: 1;
   color: #494949;
   font-size: 4rem;
 }
 
 .intro {
-  grid-column: 2 / 50;
-  grid-row: 25;
+  grid-column-start: 1;
+  grid-row-start: 2;
   color: $secondary-color;
   font-size: 2.5rem;
   text-transform: uppercase;
@@ -22,7 +21,7 @@ Header {
 .photo {
   border-radius: 100px;
   height: 120px;
-  width:120px;
-  grid-column: 49;
-  grid-row: 5;
+  width: 120px;
+  grid-column-start: 49;
+  grid-row-start: 1;
 }

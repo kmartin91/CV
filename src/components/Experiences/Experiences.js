@@ -25,9 +25,9 @@ const Experiences = () => (
     query={query}
     render={data => (
       <>
-        <span className="title">
+        <div className="title">
           <FaBlackTie /> EXPERIENCES PROFESSIONNELLES
-        </span>
+        </div>
         {_get(data, 'dataJson.experiences', []).map((experience, index) => (
           <Experience experience={experience} key={index} />
         ))}

@@ -23,9 +23,9 @@ const Links = () => (
     query={query}
     render={data => (
       <>
-        <span className="title">
+        <div className="title">
           <FaLink /> LIENS
-        </span>
+        </div>
         <ul className="Links">
           {_get(data, 'dataJson.links', []).map((link, index) => (
             <Link link={link} key={index} />

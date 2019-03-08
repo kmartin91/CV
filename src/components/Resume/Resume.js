@@ -16,9 +16,9 @@ const Resume = () => (
     query={query}
     render={data => (
       <article className="resume">
-        <span className="title">
+        <div className="title">
           <FaInfoCircle /> INFORMATIONS
-        </span>
+        </div>
         <div className="display-linebreak">{_get(data, 'dataJson.information', '')}</div>
       </article>
     )}

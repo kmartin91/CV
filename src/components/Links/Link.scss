@@ -1,16 +1,16 @@
 .Link {
-  padding: var(--space-s) 0 0;
+  padding: $space-s 0 0;
 }
 
-.Link a{
-  color: var(--thirty-color);
+.Link a {
+  color: $thirty-color;
   font-size: 1.8rem;
-  padding-left: var(--space-m);
+  padding-left: $space-m;
   text-decoration: none;
 }
 
 .Link svg path {
-  fill: var(--secondary-color);
+  fill: $secondary-color;
   height: 1.8rem;
   width: 1.8rem;
 }

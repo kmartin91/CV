@@ -1,0 +1,30 @@
+.exp {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+}
+
+.headline {
+  grid-column: 1 / span 8;
+}
+
+.duration {
+  grid-column-end: 12;
+}
+
+.intitule,
+.description,
+.technologies {
+  grid-column: span 12;
+}
+
+.intitule {
+  color: $primary-color;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.technologies {
+  color: $primary-color;
+  font-weight: bold;
+  font-size: 1.3rem;
+}

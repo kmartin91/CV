@@ -44,12 +44,14 @@ footer {
 
 .display-linebreak {
   white-space: pre-line;
+  padding: $space-s 0;
 }
 
 .title {
   color: $primary-color;
   font-size: 2rem;
   font-weight: bold;
+  padding: $space-s 0;
 }
 
 ul {
@@ -61,4 +63,9 @@ ul {
 .headline {
   color: $secondary-color;
   font-size: 2rem;
+}
+
+.duration {
+  color: $secondary-color;
+  font-size: 1.8rem;
 }

@@ -2,7 +2,7 @@
   "information": "Développeur & passionné je dispose de 5 ans d'expérience professionnelle dans différentes technologies web (PHP, .NET, JS)\nJe m'intéresse depuis un peu plus d'un an quasiment exclusivement au monde du Javascript (ES6,ES7).\nVous pouvez retrouver mes différents projets JS et autre sur mon Git.",
   "experiences": [
     {
-      "entreprise": "Renault Digital (prestation Abbeal)",
+      "entreprise": "Groupe Renault (prestation Abbeal)",
       "intitule": "Ingénieur Etude et développement",
       "lieu": "Rueil-Malmaison 92",
       "dateDebut": "Mars 2015",
@@ -82,13 +82,7 @@
       "dateFin": "Juin 2009"
     }
   ],
-  "passions": [
-    "CREATION MUSICALE",
-    "FOOTBALL",
-    "INFORMATIQUE",
-    "JEUX-VIDEO",
-    "MECANIQUE"
-  ],
+  "passions": ["CREATION MUSICALE", "FOOTBALL", "INFORMATIQUE", "JEUX-VIDEO", "MECANIQUE"],
   "links": [
     {
       "icon": "github",

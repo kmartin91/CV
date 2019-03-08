@@ -16,10 +16,10 @@ const Passions = () => (
     query={query}
     render={data => (
       <>
-        <span className="title">
+        <div className="title">
           <FaBed />
           {` PASSIONS`}
-        </span>
+        </div>
         <article className="passions">
           {_get(data, 'dataJson.passions', []).map((passion, index) => (
             <span className="passion" key={index}>

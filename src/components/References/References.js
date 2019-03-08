@@ -20,9 +20,9 @@ const References = () => (
     query={query}
     render={data => (
       <>
-        <span className="title">
+        <div className="title">
           <FaAddressBook /> REFERENCES
-        </span>
+        </div>
         {_get(data, 'dataJson.references', []).map((reference, index) => (
           <Reference reference={reference} key={index} />
         ))}

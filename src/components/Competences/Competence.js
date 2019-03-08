@@ -8,7 +8,6 @@ const Competence = ({ competence }) => (
       <span className="nameSkill">{competence.name}</span>
       <Level level={competence.value} />
     </article>
-    <div className="clear" />
   </>
 )
 

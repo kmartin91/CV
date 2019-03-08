@@ -23,9 +23,9 @@ const Formations = () => (
     query={query}
     render={data => (
       <>
-        <span className="title">
+        <div className="title">
           <FaGraduationCap /> FORMATIONS
-        </span>
+        </div>
         {_get(data, 'dataJson.formations', []).map((formation, index) => (
           <Formation formation={formation} key={index} />
         ))}

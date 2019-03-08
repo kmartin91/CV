@@ -24,9 +24,9 @@ const Competences = () => (
     query={query}
     render={data => (
       <>
-        <span className="title">
+        <div className="title">
           <FaDesktop /> COMPETENCES
-        </span>
+        </div>
         {_get(data, 'dataJson.competences', []).map((subcompetence, index) => {
           return <CompetencesList key={index} competenceslist={subcompetence} />
         })}

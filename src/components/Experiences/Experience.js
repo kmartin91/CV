@@ -1,4 +1,5 @@
 import React from 'react'
+import './Experience.scss'
 
 const Experience = ({ experience }) => (
   <article className="exp">
@@ -8,7 +9,6 @@ const Experience = ({ experience }) => (
     <div className="duration">
       {experience.dateDebut} à {experience.dateFin}
     </div>
-    <div className="clear" />
     <div className="intitule">{experience.intitule}</div>
     <div className="description display-linebreak">{experience.description}</div>
     <div className="technologies">{experience.technologies}</div>
