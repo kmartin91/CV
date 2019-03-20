@@ -3,6 +3,8 @@ import _get from 'lodash/get'
 import { useStaticQuery, graphql } from 'gatsby'
 import { FaBed } from 'react-icons/fa'
 
+import './Passions.scss'
+
 const Passions = () => {
   const data = useStaticQuery(graphql`
     query PassionData {

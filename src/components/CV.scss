@@ -11,23 +11,34 @@ body {
 
 .app {
   display: grid;
-  grid-template-columns: repeat(10, 1fr);
-}
+  grid-template-areas:
+    'logo'
+    'infos'
+    'sidebar';
+  grid-template-columns: 1fr;
 
-header,
-footer {
-  grid-column: 1 / 11;
+  @media screen and (min-width: $breakable-desktop) {
+    grid-template-areas:
+      'logo photo'
+      'infos sidebar';
+    grid-template-columns: 1fr minmax(300px, 300px);
+  }
 }
 
 .main {
-  grid-column: 1 / span 8;
-  padding: $space-l;
+  grid-area: infos;
+  padding: 0 $space-l;
 }
 
 .aside {
-  grid-column: span 2;
+  grid-area: sidebar;
   background-color: $primary-color;
   color: $thirty-color;
+  margin-top: $space-l;
+
+  @media screen and (min-width: $breakable-desktop) {
+    margin: 0;
+  }
 }
 
 .aside .content {
@@ -51,7 +62,7 @@ footer {
   color: $primary-color;
   font-size: 2rem;
   font-weight: bold;
-  padding: $space-s 0;
+  padding-top: $space-s;
 }
 
 ul {
@@ -62,10 +73,20 @@ ul {
 
 .headline {
   color: $secondary-color;
-  font-size: 2rem;
+  font-size: 1.5rem;
+  margin-top: $space-m;
+
+  @media screen and (min-width: $breakable-desktop) {
+    font-size: 2rem;
+  }
 }
 
 .duration {
   color: $secondary-color;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
+  margin-top: $space-m;
+
+  @media screen and (min-width: $breakable-desktop) {
+    font-size: 1.8rem;
+  }
 }

@@ -18,16 +18,18 @@ const Header = () => {
     }
   `)
   return (
-    <header className="header">
-      <h1 className="logo">{`${data.site.siteMetadata.firstname} ${
-        data.site.siteMetadata.lastname
-      }`}</h1>
-      <h2 className="intro">{data.site.siteMetadata.job}</h2>
+    <>
+      <header className="header">
+        <h1 className="logo">{`${data.site.siteMetadata.firstname} ${
+          data.site.siteMetadata.lastname
+        }`}</h1>
+        <h2 className="intro">{data.site.siteMetadata.job}</h2>
+      </header>
       <AwesomeKevinMartinProfilePicture
         alt={`${data.site.siteMetadata.firstname} ${data.site.siteMetadata.lastname}`}
         className="photo"
       />
-    </header>
+    </>
   )
 }
 

@@ -3,6 +3,8 @@ import _get from 'lodash/get'
 import { useStaticQuery, graphql } from 'gatsby'
 import { FaInfoCircle } from 'react-icons/fa'
 
+import './Resume.scss'
+
 const Resume = () => {
   const data = useStaticQuery(graphql`
     query InformationData {
