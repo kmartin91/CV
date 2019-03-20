@@ -1,21 +1,19 @@
 import React from 'react'
 import renderer from 'react-test-renderer'
 import References from './References'
-import { StaticQuery } from 'gatsby'
+import { useStaticQuery } from 'gatsby'
 
 beforeEach(() => {
-  StaticQuery.mockImplementationOnce(({ render }) =>
-    render({
-      dataJson: {
-        references: {
-          '1': {
-            name: 'Snollebollekes',
-            job: 'Bam bam singer',
-          },
+  useStaticQuery.mockImplementationOnce(() => ({
+    dataJson: {
+      references: [
+        {
+          name: 'Snollebollekes',
+          job: 'Bam bam singer',
         },
-      },
-    })
-  )
+      ],
+    },
+  }))
 })
 
 describe('References component', () => {

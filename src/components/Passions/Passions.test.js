@@ -1,19 +1,19 @@
 import React from 'react'
 import renderer from 'react-test-renderer'
-import Resume from './Resume'
+import Passions from './Passions'
 import { useStaticQuery } from 'gatsby'
 
 beforeEach(() => {
   useStaticQuery.mockImplementationOnce(() => ({
     dataJson: {
-      information: 'bla bla bla',
+      passions: ['CREATION MUSICALE', 'FOOTBALL', 'INFORMATIQUE', 'JEUX-VIDEO', 'MECANIQUE'],
     },
   }))
 })
 
-describe('Resume component', () => {
+describe('Passions component', () => {
   it('should render correctly', () => {
-    const component = renderer.create(<Resume />)
+    const component = renderer.create(<Passions />)
 
     const tree = component.toJSON()
     expect(tree).toMatchSnapshot()

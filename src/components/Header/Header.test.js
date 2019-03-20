@@ -1,21 +1,19 @@
 import React from 'react'
 import renderer from 'react-test-renderer'
+import { useStaticQuery } from 'gatsby'
 
 import Header from './Header'
-import { StaticQuery } from 'gatsby'
 
 beforeEach(() => {
-  StaticQuery.mockImplementationOnce(({ render }) =>
-    render({
-      site: {
-        siteMetadata: {
-          lastname: 'Martin',
-          firstname: 'Kevin',
-          job: 'Génie du mal',
-        },
+  useStaticQuery.mockImplementationOnce(() => ({
+    site: {
+      siteMetadata: {
+        lastname: 'Martin',
+        firstname: 'Kevin',
+        job: 'Génie du mal',
       },
-    })
-  )
+    },
+  }))
 })
 
 jest.mock('./Avatar', () => 'mock-avatar')
