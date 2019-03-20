@@ -4,7 +4,6 @@
     {
       "entreprise": "Groupe Renault",
       "intitule": "Ingénieur Etude et développement",
-      "lieu": "",
       "dateDebut": "Janvier 2018",
       "dateFin": "Aujourd'hui",
       "description": "- Création de module & gestion des sites du groupe Renault)\n",
@@ -13,7 +12,6 @@
     {
       "entreprise": "Niji",
       "intitule": "Ingénieur Etude et développement",
-      "lieu": "",
       "dateDebut": "Novembre 2017",
       "dateFin": "Janvier 2018",
       "description": "- Création de features pour les sites du groupe Louvre Hotels\n",
@@ -22,7 +20,6 @@
     {
       "entreprise": "Arval",
       "intitule": "Ingénieur Etude et développement",
-      "lieu": "",
       "dateDebut": "Mars 2015",
       "dateFin": "Octobre 2017",
       "description": "- Création d'applications Node.JS / Express (utilisation du moteur de template Jade)\n- Création d'applications en JS (Vue.JS, React, Angular 1 & 2)\n- Reprise d'un ancien projet pour améliorer les performances, le code et la base de donées afin de rendre le site plus fonctionnel et rapide pour les nouveaux utilisateurs.\n- Rajout de nouvelles fonctionnalités.\n- Création de projets en ASP.NET MVC.",
@@ -31,7 +28,6 @@
     {
       "entreprise": "Skiset",
       "intitule": "Ingénieur Recherche et développement",
-      "lieu": "",
       "dateDebut": "Avril 2013",
       "dateFin": "Octobre 2014",
       "description": "- Création du design du site mobile de réservation Skiset\n- Développement du site mobile de réservation Skiset",
@@ -40,7 +36,6 @@
     {
       "entreprise": "Wunderman",
       "intitule": "Développeur Web Mobile",
-      "lieu": "",
       "dateDebut": "Octobre 2012",
       "dateFin": "Février 2013",
       "description": "-Développer le site mobile des Tech'days Microsoft.\n-Développer un site comparateur de produits Hi tech pour Microsoft\n-Développement d'un jeu Facebook pour Microsoft",
@@ -49,7 +44,6 @@
     {
       "entreprise": "Renault",
       "intitule": "Développeur Mobile",
-      "lieu": "",
       "dateDebut": "Octobre 2011",
       "dateFin": "Septembre 2012",
       "description": "-Développement d'applications Blackberry\nDéveloppement d'applications multi-plateformes via le framework Phonegap.\nDéveloppement d'un site marché d'application en PHP (Zend Framework) et Jquery mobile pour la partie mobile.",
@@ -59,33 +53,28 @@
   "formations": [
     {
       "nom": "Docker for entreprise",
-      "lieu": "",
       "description": "Formation officiel Docker US",
       "dateDebut": "Avril 2017"
     },
     {
       "nom": "ASP.NET MVC 5",
-      "lieu": "",
       "description": "-Comprendre la philosophie MVC 6 & Entity Framework",
       "dateDebut": "Août 2016"
     },
     {
       "nom": "Université PARIS 11",
-      "lieu": "",
       "description": "Licence professionnelle Programmation en Environnement Réparti",
       "dateDebut": "Octobre 2011",
       "dateFin": "Septembre 2012"
     },
     {
       "nom": "Lycées Vilgénis",
-      "lieu": "",
       "description": "BTS Informatique de Gestion option Développeur d'applications",
       "dateDebut": "Septembre 2009",
       "dateFin": "Juin 2011"
     },
     {
       "nom": "Lycées Vilgénis",
-      "lieu": "",
       "description": "BAC Sciences et Technologies de la Gestion option Informatique",
       "dateDebut": "Septembre 2008",
       "dateFin": "Juin 2009"

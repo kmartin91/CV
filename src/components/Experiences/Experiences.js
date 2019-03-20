@@ -11,7 +11,6 @@ const Experiences = () => {
         experiences {
           entreprise
           intitule
-          lieu
           dateDebut
           dateFin
           description

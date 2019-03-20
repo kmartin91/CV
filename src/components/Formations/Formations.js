@@ -10,7 +10,6 @@ const Formations = () => {
       dataJson {
         formations {
           nom
-          lieu
           description
           dateDebut
           dateFin

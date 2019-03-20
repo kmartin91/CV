@@ -4,7 +4,7 @@ import './Formation.scss'
 
 const Formation = ({ formation }) => (
   <article className="formation">
-    <div className="headline">{`${formation.nom} (${formation.lieu})`}</div>
+    <div className="headline">{`${formation.nom}`}</div>
     <div className="duration">
       {`${formation.dateDebut} ${formation.dateFin !== null ? `- ${formation.dateFin}` : ''}`}
     </div>
