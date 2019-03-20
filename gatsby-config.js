@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
     title: `Fullstack Developer`,
-    description: `Hi!`,
+    description: `Hi, my name is Kevin MARTIN. I'm a fullstack developer, i'm in love with JS. You can clone this project on my github.`,
     author: `@coldfuzion91`,
     lastname: 'MARTIN',
     firstname: 'Kevin',
-    job: 'Développeur Fullstack',
+    job: 'Fullstack Developer',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

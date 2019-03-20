@@ -4,18 +4,27 @@
     {
       "entreprise": "Groupe Renault (prestation Abbeal)",
       "intitule": "Ingénieur Etude et développement",
-      "lieu": "Rueil-Malmaison 92",
-      "dateDebut": "Mars 2015",
+      "lieu": "Boulogne-Billancourt 92",
+      "dateDebut": "Janvier 2018",
       "dateFin": "Aujourd'hui",
-      "description": "- Création d'applications Node.JS / Express (utilisation du moteur de template Jade)\n- Création d'applications en JS (Vue.JS, React, Angular 1 & 2)\n- Reprise d'un ancien projet pour améliorer les performances, le code et la base de donées afin de rendre le site plus fonctionnel et rapide pour les nouveaux utilisateurs.\n- Rajout de nouvelles fonctionnalités.\n- Création de projets en ASP.NET MVC.",
-      "technologies": "Technologies utilisées: ASP.NET MVC 5, PHP (5.3), HTML 5, CSS 3, Javascript ES6 (ECMAScript 2015), Docker\nFramework/Librairies utilisés: AngularJS (1), Angular (2,4), React, Vue.JS, Node.JS, Express, Passport.JS, Jade,Jquery , Entity Framework 6"
+      "description": "- Création de module & gestion des sites du groupe Renault)\n",
+      "technologies": "Technologies utilisées: HTML 5, CSS 3, Javascript, Docker\nFramework/Librairies utilisés: React, Vue.JS"
+    },
+    {
+      "entreprise": "Niji (prestation Abbeal)",
+      "intitule": "Ingénieur Etude et développement",
+      "lieu": "Issy-les-Moulineaux 92",
+      "dateDebut": "Novembre 2017",
+      "dateFin": "Janvier 2018",
+      "description": "- Création de features pour les sites du groupe Louvre Hotels\n",
+      "technologies": "Technologies utilisées: HTML 5, CSS 3, Javascript Framework utilisé: React"
     },
     {
       "entreprise": "Arval (prestation Solutec)",
       "intitule": "Ingénieur Etude et développement",
       "lieu": "Rueil-Malmaison 92",
       "dateDebut": "Mars 2015",
-      "dateFin": "Aujourd'hui",
+      "dateFin": "Octobre 2017",
       "description": "- Création d'applications Node.JS / Express (utilisation du moteur de template Jade)\n- Création d'applications en JS (Vue.JS, React, Angular 1 & 2)\n- Reprise d'un ancien projet pour améliorer les performances, le code et la base de donées afin de rendre le site plus fonctionnel et rapide pour les nouveaux utilisateurs.\n- Rajout de nouvelles fonctionnalités.\n- Création de projets en ASP.NET MVC.",
       "technologies": "Technologies utilisées: ASP.NET MVC 5, PHP (5.3), HTML 5, CSS 3, Javascript ES6 (ECMAScript 2015), Docker\nFramework/Librairies utilisés: AngularJS (1), Angular (2,4), React, Vue.JS, Node.JS, Express, Passport.JS, Jade,Jquery , Entity Framework 6"
     },
@@ -115,7 +124,12 @@
       "label": "Programmation",
       "values": [
         {
-          "name": "HTML5",
+          "name": "Javascript",
+          "value": "4.5"
+        },
+
+        {
+          "name": "HTML 5",
           "value": "4.3"
         },
         {
@@ -125,10 +139,6 @@
         {
           "name": "PHP",
           "value": "4.0"
-        },
-        {
-          "name": "Javascript",
-          "value": "3.8"
         },
         {
           "name": ".NET",
