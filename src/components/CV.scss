@@ -60,9 +60,19 @@ body {
 
 .title {
   color: $primary-color;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: bold;
   padding-top: $space-s;
+  display: flex;
+  align-items: center;
+
+  svg {
+    padding-right: $space-xs;
+  }
+
+  @media screen and (min-width: $breakable-desktop) {
+    font-size: 2rem;
+  }
 }
 
 ul {
@@ -74,7 +84,7 @@ ul {
 .headline {
   color: $secondary-color;
   font-size: 1.5rem;
-  margin-top: $space-m;
+  margin: $space-s 0;
 
   @media screen and (min-width: $breakable-desktop) {
     font-size: 2rem;
@@ -84,7 +94,7 @@ ul {
 .duration {
   color: $secondary-color;
   font-size: 1.5rem;
-  margin-top: $space-m;
+  margin: $space-s 0;
 
   @media screen and (min-width: $breakable-desktop) {
     font-size: 1.8rem;
