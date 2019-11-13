@@ -1,5 +1,5 @@
 {
-  "information": "Développeur & passionné je dispose de 5 ans d'expérience professionnelle dans différentes technologies web (PHP, .NET, JS)\nJe m'intéresse depuis un peu plus d'un an quasiment exclusivement au monde du Javascript (ES6,ES7).\nVous pouvez retrouver mes différents projets JS et autre sur mon Git.",
+  "information": "Développeur & passionné je dispose de 7 ans d'expérience professionnelle dans différentes technologies web (PHP, .NET, JS)\nJe m'intéresse depuis un peu plus d'un an quasiment exclusivement au monde du Javascript (ES6,ES7).\nVous pouvez retrouver mes différents projets JS et autre sur mon Git.",
   "experiences": [
     {
       "entreprise": "Groupe Renault",
@@ -116,14 +116,13 @@
           "name": "Javascript",
           "value": "4.5"
         },
-
         {
-          "name": "HTML 5",
-          "value": "4.3"
+          "name": "Node.JS",
+          "value": "3.6"
         },
         {
-          "name": "CSS3",
-          "value": "4.2"
+          "name": "Docker",
+          "value": "2.0"
         },
         {
           "name": "PHP",
@@ -135,11 +134,11 @@
         },
         {
           "name": "jQuery",
-          "value": "3.6"
+          "value": "3.0"
         },
         {
           "name": "AngularJS",
-          "value": "3.2"
+          "value": "2.8"
         },
         {
           "name": "SQL",
@@ -147,15 +146,11 @@
         },
         {
           "name": "React",
-          "value": "2.5"
+          "value": "4.5"
         },
         {
           "name": "VueJS",
-          "value": "2.2"
-        },
-        {
-          "name": "Merise",
-          "value": "4.0"
+          "value": "3.2"
         }
       ]
     },
@@ -164,7 +159,7 @@
       "values": [
         {
           "name": "Photoshop",
-          "value": "3.3"
+          "value": "3.7"
         },
         {
           "name": "Fl Studio",
@@ -181,7 +176,7 @@
       "values": [
         {
           "name": "Anglais",
-          "value": "3.7"
+          "value": "3.5"
         },
         {
           "name": "Espagnol",
