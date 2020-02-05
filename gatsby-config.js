@@ -10,6 +10,19 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Kevin Martin`,
+        short_name: `KevinMartin`,
+        start_url: `/`,
+        background_color: `#ffffff`,
+        theme_color: `#2e6ed0`,
+        display: `standalone`,
+        icon: `src/images/icon.png`,
+      },
+    },
+    `gatsby-plugin-offline`,
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
