@@ -3,7 +3,7 @@ import Competence from './Competence.js'
 
 const CompetencesList = ({ competenceslist }) => (
   <>
-    <div className="headline">{competenceslist.label}</div>
+    <div className="headline headline_alt">{competenceslist.label}</div>
     {competenceslist.values
       .sort((a, b) => parseFloat(b.value) - parseFloat(a.value))
       .map((competence, index) => {
