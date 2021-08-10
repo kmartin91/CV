@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Level component should render correctly empty level 1`] = `
+<div
+  className="skillList"
+>
+  <span
+    className="skill"
+  />
+  <span
+    className="skill"
+  />
+  <span
+    className="skill"
+  />
+  <span
+    className="skill"
+  />
+  <span
+    className="skill"
+  />
+</div>
+`;
+
+exports[`Level component should render correctly full level complete 1`] = `
+<div
+  className="skillList"
+>
+  <span
+    className="skill full"
+  />
+  <span
+    className="skill full"
+  />
+  <span
+    className="skill full"
+  />
+  <span
+    className="skill full"
+  />
+  <span
+    className="skill seventy"
+  />
+</div>
+`;
+
+exports[`Level component should render correctly half level 1`] = `
+<div
+  className="skillList"
+>
+  <span
+    className="skill full"
+  />
+  <span
+    className="skill full"
+  />
+  <span
+    className="skill half"
+  />
+  <span
+    className="skill"
+  />
+  <span
+    className="skill"
+  />
+</div>
+`;
+
+exports[`Level component should render correctly thirty level 1`] = `
+<div
+  className="skillList"
+>
+  <span
+    className="skill full"
+  />
+  <span
+    className="skill full"
+  />
+  <span
+    className="skill thirty"
+  />
+  <span
+    className="skill"
+  />
+  <span
+    className="skill"
+  />
+</div>
+`;

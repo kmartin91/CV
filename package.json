@@ -5,26 +5,27 @@
   "version": "0.1.0",
   "author": "Kevin Martin",
   "dependencies": {
-    "gatsby": "^2.19.12",
-    "gatsby-image": "^2.2.40",
-    "gatsby-plugin-manifest": "^2.2.41",
-    "gatsby-plugin-offline": "^3.0.34",
-    "gatsby-plugin-react-helmet": "^3.1.22",
-    "gatsby-plugin-sass": "^2.1.28",
+    "gatsby": "^3.11.1",
+    "gatsby-image": "^3.11.0",
+    "gatsby-plugin-manifest": "^3.11.0",
+    "gatsby-plugin-offline": "^4.11.0",
+    "gatsby-plugin-react-helmet": "^4.11.0",
+    "gatsby-plugin-sass": "^4.11.0",
     "gatsby-plugin-sass-resources": "^2.0.0",
-    "gatsby-plugin-sharp": "^2.4.5",
+    "gatsby-plugin-sharp": "^3.11.0",
     "gatsby-remark-prettier": "^1.0.0",
-    "gatsby-source-filesystem": "^2.1.48",
-    "gatsby-transformer-json": "^2.2.26",
-    "gatsby-transformer-remark": "^2.6.50",
-    "gatsby-transformer-sharp": "^2.3.14",
-    "lodash": "^4.17.15",
-    "node-sass": "^4.13.1",
+    "gatsby-source-filesystem": "^3.11.0",
+    "gatsby-transformer-json": "^3.11.0",
+    "gatsby-transformer-remark": "^4.8.0",
+    "gatsby-transformer-sharp": "^3.11.0",
+    "lodash": "^4.17.21",
+    "node-sass": "^6.0.1",
     "prop-types": "^15.7.2",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-helmet": "^5.2.1",
-    "react-icons": "^3.9.0"
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^4.2.0",
+    "ts-jest": "^27.0.4"
   },
   "keywords": [
     "ckoisa, ckoisa.net, kevin, martin, fullstack, developer"
@@ -34,36 +35,36 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "start": "npm run develop",
-    "format": "prettier --write \"src/**/*.js\"",
-    "test": "jest"
+    "format": "prettier --write \"src/**/*.tsx\" \"src/**/*.js\"",
+    "test": "jest --coverage",
+    "prepare": "husky install"
   },
   "devDependencies": {
-    "babel-jest": "^25.1.0",
-    "babel-preset-gatsby": "^0.2.28",
-    "husky": "^4.2.1",
+    "@babel/preset-typescript": "^7.15.0",
+    "@types/react": "^17.0.16",
+    "@types/react-dom": "^17.0.9",
+    "babel-jest": "^27.0.6",
+    "babel-preset-gatsby": "^1.11.0",
+    "husky": "^7.0.1",
     "identity-obj-proxy": "^3.0.0",
-    "jest": "^25.1.0",
-    "lint-staged": "^10.0.7",
-    "prettier": "^1.19.1",
-    "react-test-renderer": "^16.12.0",
-    "sass": "^1.25.0"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
+    "jest": "^27.0.6",
+    "lint-staged": "^11.1.2",
+    "prettier": "^2.3.2",
+    "react-test-renderer": "^17.0.2",
+    "sass": "^1.37.5",
+    "typescript": "^4.3.5"
   },
   "lint-staged": {
-    "*.{js,scss,json}": [
+    "*.{js,tsx,scss,json}": [
       "prettier --write",
       "git add"
     ]
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/kmartin91/CV"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/kmartin91/CV/issues"
   }
 }

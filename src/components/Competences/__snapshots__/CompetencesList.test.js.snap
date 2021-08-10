@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CompetencesList component should render correctly with props 1`] = `
+Array [
+  <div
+    className="headline headline_alt"
+  >
+    Programmation
+  </div>,
+  <mock-competence
+    competence={
+      Object {
+        "name": "Javascript",
+        "value": "4.5",
+      }
+    }
+  />,
+  <mock-competence
+    competence={
+      Object {
+        "name": "Node.JS",
+        "value": "3.6",
+      }
+    }
+  />,
+]
+`;
+
+exports[`CompetencesList component should render correctly without props 1`] = `null`;

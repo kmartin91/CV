@@ -3,7 +3,7 @@
 exports[`Reference component should render correctly with props 1`] = `
 Array [
   <div
-    className="headline"
+    className="headline headline_alt"
   >
     Roberto Carlos
   </div>,

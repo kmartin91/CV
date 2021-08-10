@@ -1,5 +1,5 @@
 {
-  "information": "Développeur & passionné je dispose de 7 ans d'expérience professionnelle dans différentes technologies web (JS, .NET, PHP)\n\nVous pouvez retrouver mes différents projets JS et autre sur mon Git.",
+  "information": "Développeur & passionné je dispose de 9 ans d'expérience professionnelle dans différentes technologies web (JS, .NET, PHP)\n\nVous pouvez retrouver mes différents projets JS et autre sur mon Git.",
   "experiences": [
     {
       "entreprise": "Groupe Renault",
@@ -7,7 +7,7 @@
       "dateDebut": "Janvier 2018",
       "dateFin": "Aujourd'hui",
       "description": "- Création de module & gestion des sites du groupe Renault)\n",
-      "technologies": "Technologies utilisées: HTML 5, CSS 3, Javascript, Docker\nFramework/Librairies utilisés: React, Vue.JS"
+      "technologies": "Technologies utilisées: HTML 5, CSS 3, Javascript, Docker\nFramework/Librairies utilisés: React, Vue.JS, Svelte, Node"
     },
     {
       "entreprise": "Niji",

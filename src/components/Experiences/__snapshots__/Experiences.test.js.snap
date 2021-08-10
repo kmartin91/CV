@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Experiences component should render correctly 1`] = `
+Array [
+  <div
+    className="title"
+  >
+    <svg
+      fill="currentColor"
+      height="1em"
+      stroke="currentColor"
+      strokeWidth="0"
+      style={
+        Object {
+          "color": undefined,
+        }
+      }
+      viewBox="0 0 448 512"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M0 32v448h448V32H0zm316.5 325.2L224 445.9l-92.5-88.7 64.5-184-64.5-86.6h184.9L252 173.2l64.5 184z"
+      />
+    </svg>
+     EXPERIENCES PROFESSIONNELLES
+  </div>,
+  <article
+    className="exp"
+  >
+    <div
+      className="headline"
+    >
+      Groupe Renault
+    </div>
+    <div
+      className="duration"
+    >
+      Janvier 2018
+       à 
+      Aujourd'hui
+    </div>
+    <div
+      className="intitule"
+    >
+      Ingénieur Etude et développement
+    </div>
+    <div
+      className="description display-linebreak"
+    >
+      - Création de module & gestion des sites du groupe Renault)
+
+    </div>
+    <div
+      className="technologies"
+    >
+      Technologies utilisées: HTML 5, CSS 3, Javascript, Docker
+Framework/Librairies utilisés: React, Vue.JS, Svelte, Node
+    </div>
+  </article>,
+  <article
+    className="exp"
+  >
+    <div
+      className="headline"
+    >
+      Niji
+    </div>
+    <div
+      className="duration"
+    >
+      Novembre 2017
+       à 
+      Janvier 2018
+    </div>
+    <div
+      className="intitule"
+    >
+      Ingénieur Etude et développement
+    </div>
+    <div
+      className="description display-linebreak"
+    >
+      - Création de features pour les sites du groupe Louvre Hotels
+
+    </div>
+    <div
+      className="technologies"
+    >
+      Technologies utilisées: HTML 5, CSS 3, Javascript Framework utilisé: React
+    </div>
+  </article>,
+]
+`;

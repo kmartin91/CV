@@ -18,7 +18,7 @@ beforeEach(() => {
 
 jest.mock('./Avatar', () => 'mock-avatar')
 
-describe('Header', () => {
+describe('Header component', () => {
   it('renders correctly', () => {
     const tree = renderer.create(<Header siteTitle="Default Starter" />).toJSON()
     expect(tree).toMatchSnapshot()

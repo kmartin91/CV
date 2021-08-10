@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Formation component should render correctly with endate 1`] = `
+<article
+  className="formation"
+>
+  <div
+    className="headline"
+  >
+    Docker for entreprise
+  </div>
+  <div
+    className="duration"
+  >
+    Avril 2017 - Janvier 2019
+  </div>
+  <div
+    className="description"
+  >
+    Formation officiel Docker US
+  </div>
+</article>
+`;
+
+exports[`Formation component should render correctly with props 1`] = `
+<article
+  className="formation"
+>
+  <div
+    className="headline"
+  >
+    Docker for entreprise
+  </div>
+  <div
+    className="duration"
+  >
+    Avril 2017 
+  </div>
+  <div
+    className="description"
+  >
+    Formation officiel Docker US
+  </div>
+</article>
+`;
+
+exports[`Formation component should render correctly without props 1`] = `null`;

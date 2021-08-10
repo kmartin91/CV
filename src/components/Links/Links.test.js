@@ -1,16 +1,17 @@
 import React from 'react'
 import renderer from 'react-test-renderer'
-import References from './References'
 import { useStaticQuery } from 'gatsby'
+import Links from './Links'
 
-describe('References component', () => {
+describe('Links component', () => {
   beforeEach(() => {
     useStaticQuery.mockImplementationOnce(() => ({
       dataJson: {
-        references: [
+        links: [
           {
-            name: 'Snollebollekes',
-            job: 'Bam bam singer',
+            icon: 'icon',
+            url: 'url',
+            name: 'name',
           },
         ],
       },
@@ -18,7 +19,7 @@ describe('References component', () => {
   })
 
   it('should render correctly', () => {
-    const component = renderer.create(<References />)
+    const component = renderer.create(<Links />)
 
     const tree = component.toJSON()
     expect(tree).toMatchSnapshot()

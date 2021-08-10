@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Experience component should render correctly with props 1`] = `
+<article
+  className="exp"
+>
+  <div
+    className="headline"
+  >
+    Groupe Renault
+  </div>
+  <div
+    className="duration"
+  >
+    Janvier 2018
+     à 
+    Aujourd'hui
+  </div>
+  <div
+    className="intitule"
+  >
+    Ingénieur Etude et développement
+  </div>
+  <div
+    className="description display-linebreak"
+  >
+    - Création de module & gestion des sites du groupe Renault)
+
+  </div>
+  <div
+    className="technologies"
+  >
+    Technologies utilisées: HTML 5, CSS 3, Javascript, Docker
+Framework/Librairies utilisés: React, Vue.JS, Svelte, Node
+  </div>
+</article>
+`;
+
+exports[`Experience component should render correctly without props 1`] = `null`;

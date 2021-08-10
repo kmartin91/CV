@@ -1,16 +1,19 @@
 import React from 'react'
 import renderer from 'react-test-renderer'
-import References from './References'
+import Formations from './Formations'
 import { useStaticQuery } from 'gatsby'
 
-describe('References component', () => {
+jest.mock('./Formation', () => 'mock-formation')
+
+describe('Formations component', () => {
   beforeEach(() => {
     useStaticQuery.mockImplementationOnce(() => ({
       dataJson: {
-        references: [
+        formations: [
           {
-            name: 'Snollebollekes',
-            job: 'Bam bam singer',
+            nom: 'Docker for entreprise',
+            description: 'Formation officiel Docker US',
+            dateDebut: 'Avril 2017',
           },
         ],
       },
@@ -18,7 +21,7 @@ describe('References component', () => {
   })
 
   it('should render correctly', () => {
-    const component = renderer.create(<References />)
+    const component = renderer.create(<Formations />)
 
     const tree = component.toJSON()
     expect(tree).toMatchSnapshot()
