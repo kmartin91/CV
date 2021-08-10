@@ -3,19 +3,17 @@ import PropTypes from 'prop-types'
 import Level from '../Level/Level'
 import './Competence.scss'
 
-interface CompetenceInterface {
-  competence: {
-    name: string
-    value: string
-  }
+interface PropsInterface {
+  competence: CompetenceInterface
 }
 
-const Competence = ({ competence }: CompetenceInterface) => {
+const Competence = ({ competence }: PropsInterface) => {
   if (!competence) return null
+  const { name, value }: CompetenceInterface = competence
   return (
     <article className="Competence">
-      <span className="nameSkill">{competence.name}</span>
-      <Level level={competence.value} />
+      <span className="nameSkill">{name}</span>
+      <Level level={value} />
     </article>
   )
 }

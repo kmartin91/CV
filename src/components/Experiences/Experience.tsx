@@ -2,29 +2,30 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import './Experience.scss'
 
-interface ExperienceInterface {
-  experience: {
-    entreprise: string
-    dateDebut: string
-    dateFin: string
-    intitule: string
-    description: string
-    technologies: string
-  }
+interface PropsInterface {
+  experience: ExperienceInterface
 }
 
-const Experience = ({ experience }: ExperienceInterface) => {
+const Experience = ({ experience }: PropsInterface) => {
   if (!experience) return null
 
+  const {
+    entreprise,
+    dateDebut,
+    dateFin,
+    description,
+    intitule,
+    technologies,
+  }: ExperienceInterface = experience
   return (
     <article className="exp">
-      <div className="headline">{experience.entreprise}</div>
+      <div className="headline">{entreprise}</div>
       <div className="duration">
-        {experience.dateDebut} à {experience.dateFin}
+        {dateDebut} à {dateFin}
       </div>
-      <div className="intitule">{experience.intitule}</div>
-      <div className="description display-linebreak">{experience.description}</div>
-      <div className="technologies">{experience.technologies}</div>
+      <div className="intitule">{intitule}</div>
+      <div className="description display-linebreak">{description}</div>
+      <div className="technologies">{technologies}</div>
     </article>
   )
 }

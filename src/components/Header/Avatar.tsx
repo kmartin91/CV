@@ -3,10 +3,6 @@ import PropTypes from 'prop-types'
 import { useStaticQuery, graphql } from 'gatsby'
 import Img from 'gatsby-image'
 
-interface AvatarInterface {
-  alt: string
-}
-
 const Avatar = ({ alt }: AvatarInterface) => {
   const data = useStaticQuery(graphql`
     query {

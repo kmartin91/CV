@@ -2,10 +2,6 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import './Level.css'
 
-interface LevelInterface {
-  level: string
-}
-
 // TODO Refactor this sh**
 
 const Level = ({ level }: LevelInterface) => {

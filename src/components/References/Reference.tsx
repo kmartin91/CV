@@ -1,19 +1,18 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-interface ReferenceInterface {
-  reference: {
-    name: string
-    job: string
-  }
+interface PropsInterface {
+  reference: ReferenceInterface
 }
 
-const Reference = ({ reference }: ReferenceInterface) => {
+const Reference = ({ reference }: PropsInterface) => {
   if (!reference) return null
+
+  const { name, job }: ReferenceInterface = reference
   return (
     <React.Fragment>
-      <div className="headline headline_alt">{reference.name}</div>
-      <div className="refJob">{reference.job}</div>
+      <div className="headline headline_alt">{name}</div>
+      <div className="refJob">{job}</div>
     </React.Fragment>
   )
 }

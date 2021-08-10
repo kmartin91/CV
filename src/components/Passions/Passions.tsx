@@ -21,7 +21,7 @@ const Passions = () => {
         {` PASSIONS`}
       </div>
       <article className="passions">
-        {_get(data, 'dataJson.passions', []).map((passion, index) => (
+        {_get(data, 'dataJson.passions', []).map((passion: string, index: number) => (
           <span className="passion" key={index}>
             {passion}
           </span>

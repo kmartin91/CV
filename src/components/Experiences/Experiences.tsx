@@ -25,9 +25,11 @@ const Experiences = () => {
       <div className="title">
         <FaBlackTie /> EXPERIENCES PROFESSIONNELLES
       </div>
-      {_get(data, 'dataJson.experiences', []).map((experience, index) => (
-        <Experience experience={experience} key={index} />
-      ))}
+      {_get(data, 'dataJson.experiences', []).map(
+        (experience: ExperienceInterface, index: number) => (
+          <Experience experience={experience} key={index} />
+        ),
+      )}
     </React.Fragment>
   )
 }

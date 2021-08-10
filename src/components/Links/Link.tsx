@@ -4,12 +4,8 @@ import { FaGithub, FaLinkedin, FaCode, FaViadeo, FaFileCode } from 'react-icons/
 
 import './Link.scss'
 
-interface LinkInterface {
-  link: {
-    icon: string
-    url: string
-    name: string
-  }
+interface PropsInterface {
+  link: LinkInterface
 }
 
 const getIcon = (icon: string) => {
@@ -29,14 +25,16 @@ const getIcon = (icon: string) => {
   }
 }
 
-const Link = ({ link }: LinkInterface) => {
+const Link = ({ link }: PropsInterface) => {
   if (!link) return null
+
+  const { icon, url, name }: LinkInterface = link
 
   return (
     <li className="Link">
-      {getIcon(link.icon)}
-      <a href={link.url} target="_blank" rel="noopener noreferrer">
-        {link.name}
+      {getIcon(icon)}
+      <a href={url} target="_blank" rel="noopener noreferrer">
+        {name}
       </a>
     </li>
   )

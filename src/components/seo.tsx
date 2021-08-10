@@ -1,15 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import Helmet from 'react-helmet'
+import { Helmet } from 'react-helmet'
 import { useStaticQuery, graphql } from 'gatsby'
-
-interface SEOProps {
-  description?: string
-  lang?: string
-  meta?: Array<{ name: string; content: string }>
-  title: string
-  keywords?: Array<string>
-}
 
 function SEO({ description, lang, meta, keywords, title }: SEOProps) {
   const data = useStaticQuery(graphql`
@@ -67,14 +59,14 @@ function SEO({ description, lang, meta, keywords, title }: SEOProps) {
         },
       ]
         .concat(
-          keywords.length > 0
+          keywords && keywords.length > 0
             ? {
                 name: `keywords`,
                 content: keywords.join(`, `),
               }
             : [],
         )
-        .concat(meta)}
+        .concat(meta && meta.length > 0 ? meta : [])}
     />
   )
 }

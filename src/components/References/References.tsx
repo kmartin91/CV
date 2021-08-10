@@ -20,7 +20,7 @@ const References = () => {
       <div className="title">
         <FaAddressBook /> REFERENCES
       </div>
-      {_get(data, 'dataJson.references', []).map((reference, index) => (
+      {_get(data, 'dataJson.references', []).map((reference: ReferenceInterface, index: number) => (
         <Reference reference={reference} key={index} />
       ))}
 

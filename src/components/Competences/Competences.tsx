@@ -5,11 +5,6 @@ import { useStaticQuery, graphql } from 'gatsby'
 
 import CompetencesList from './CompetencesList'
 
-interface CompetenceInterface {
-  label: string
-  values: Array<{ value: string; name: string }>
-}
-
 const Competences = () => {
   const data = useStaticQuery(graphql`
     query CompetenceData {
@@ -30,7 +25,7 @@ const Competences = () => {
         <FaDesktop /> COMPETENCES
       </div>
       {_get(data, 'dataJson.competences', []).map(
-        (subcompetence: CompetenceInterface, index: number) => {
+        (subcompetence: CompetencesInterface, index: number) => {
           return <CompetencesList key={index} competencesList={subcompetence} />
         },
       )}

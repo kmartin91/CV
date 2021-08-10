@@ -4,13 +4,6 @@ import { useStaticQuery, graphql } from 'gatsby'
 import { FaGraduationCap } from 'react-icons/fa'
 import Formation from './Formation'
 
-interface FormationInterface {
-  nom: string
-  dateDebut: string
-  dateFin: string
-  description: string
-}
-
 const Formations = () => {
   const data = useStaticQuery(graphql`
     query FormationData {

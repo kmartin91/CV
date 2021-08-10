@@ -6,12 +6,6 @@ import Link from './Link'
 
 import './Links.scss'
 
-interface LinkInterface {
-  icon: string
-  url: string
-  name: string
-}
-
 const Links = () => {
   const data = useStaticQuery(graphql`
     query LinkData {

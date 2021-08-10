@@ -3,25 +3,19 @@ import PropTypes from 'prop-types'
 
 import './Formation.scss'
 
-interface FormationInterface {
-  formation: {
-    nom: string
-    dateDebut: string
-    dateFin: string
-    description: string
-  }
+interface PropsInterface {
+  formation: FormationInterface
 }
 
-const Formation = ({ formation }: FormationInterface) => {
+const Formation = ({ formation }: PropsInterface) => {
   if (!formation) return null
 
+  const { nom, dateFin, dateDebut, description }: FormationInterface = formation
   return (
     <article className="formation">
-      <div className="headline">{`${formation.nom}`}</div>
-      <div className="duration">
-        {`${formation.dateDebut} ${formation.dateFin ? `- ${formation.dateFin}` : ''}`}
-      </div>
-      <div className="description">{formation.description}</div>
+      <div className="headline">{`${nom}`}</div>
+      <div className="duration">{`${dateDebut} ${dateFin ? `- ${dateFin}` : ''}`}</div>
+      <div className="description">{description}</div>
     </article>
   )
 }
