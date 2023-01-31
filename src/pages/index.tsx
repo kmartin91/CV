@@ -1,3 +1,4 @@
+import { Script } from 'gatsby'
 import React from 'react'
 
 import Layout from '../components/layout'
@@ -13,6 +14,7 @@ import References from '../components/References/References'
 
 const IndexPage = () => (
   <Layout>
+    <Script src="https://analytics.ckoisa.net/js/plausible.js" data-domain="kevinmartin.dev" />
     <SEO title="Kevin Martin" keywords={[`fullstack`, `js`, `react`]} />
     <Header />
     <section className="main">

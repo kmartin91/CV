@@ -1,11 +1,27 @@
 {
-  "information": "Développeur & passionné je dispose de 9 ans d'expérience professionnelle dans différentes technologies web (JS, .NET, PHP)\n\nVous pouvez retrouver mes différents projets JS et autre sur mon Git.",
+  "information": "Développeur & passionné je dispose de 11 ans d'expérience professionnelle dans différentes technologies web (JS, .NET, PHP)\n\nVous pouvez retrouver mes différents projets JS et autre sur mon Git.",
   "experiences": [
+    {
+      "entreprise": "Dailymotion",
+      "intitule": "Senior frontend developper",
+      "dateDebut": "Avril 2022",
+      "dateFin": "Aujourd'hui",
+      "description": "- Amélioration du site partenaire\n",
+      "technologies": "Technologies utilisées: HTML 5, CSS 3, Js, ASP.NET\nFramework/Librairies utilisés: React, react-hook-form, apollo, graphQL, antd-design"
+    },
+    {
+      "entreprise": "Identicar / Roole",
+      "intitule": "Senior frontend developper",
+      "dateDebut": "Novembre 2021",
+      "dateFin": "Avril 2022",
+      "description": "- Création du nouveau site membre utilisateur\n",
+      "technologies": "Technologies utilisées: HTML 5, CSS 3, Js, ASP.NET\nFramework/Librairies utilisés: React, react-hook-form"
+    },
     {
       "entreprise": "Groupe Renault",
       "intitule": "Ingénieur Etude et développement",
       "dateDebut": "Janvier 2018",
-      "dateFin": "Aujourd'hui",
+      "dateFin": "Novembre 2021",
       "description": "- Création de module & gestion des sites du groupe Renault)\n",
       "technologies": "Technologies utilisées: HTML 5, CSS 3, Javascript, Docker\nFramework/Librairies utilisés: React, Vue.JS, Svelte, Node"
     },
@@ -86,6 +102,16 @@
       "icon": "github",
       "name": "Github",
       "url": "https://github.com/kmartin91?tab=repositories"
+    },
+    {
+      "icon": "code",
+      "name": "CSS Battle",
+      "url": "https://cssbattle.dev/player/eaHuZ7xJv5Uu9iF2YwJlRkXSLsP2"
+    },
+    {
+      "icon": "code",
+      "name": "CodePen",
+      "url": "https://codepen.io/plancheapain"
     },
     {
       "icon": "linkedin",
