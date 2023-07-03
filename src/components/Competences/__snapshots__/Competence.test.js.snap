@@ -1,18 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Competence component should render correctly with props 1`] = `
-<article
-  className="Competence"
+<span
+  className="nameSkill"
 >
-  <span
-    className="nameSkill"
-  >
-    Javascript
-  </span>
-  <mock-level
-    level="4.5"
-  />
-</article>
+  Javascript
+</span>
 `;
 
 exports[`Competence component should render correctly without props 1`] = `null`;

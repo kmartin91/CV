@@ -7,22 +7,26 @@ exports[`CompetencesList component should render correctly with props 1`] = `
   >
     Programmation
   </div>,
-  <mock-competence
-    competence={
-      {
-        "name": "Javascript",
-        "value": "4.5",
+  <div
+    className="Competences"
+  >
+    <mock-competence
+      competence={
+        {
+          "name": "Javascript",
+          "value": "4.5",
+        }
       }
-    }
-  />,
-  <mock-competence
-    competence={
-      {
-        "name": "Node.JS",
-        "value": "3.6",
+    />
+    <mock-competence
+      competence={
+        {
+          "name": "Node.JS",
+          "value": "3.6",
+        }
       }
-    }
-  />,
+    />
+  </div>,
 ]
 `;
 

@@ -1,6 +1,5 @@
-import React from 'react'
 import PropTypes from 'prop-types'
-import Level from '../Level/Level'
+import React from 'react'
 import './Competence.scss'
 
 interface PropsInterface {
@@ -9,13 +8,8 @@ interface PropsInterface {
 
 const Competence = ({ competence }: PropsInterface) => {
   if (!competence) return null
-  const { name, value }: CompetenceInterface = competence
-  return (
-    <article className="Competence">
-      <span className="nameSkill">{name}</span>
-      <Level level={value} />
-    </article>
-  )
+  const { name }: CompetenceInterface = competence
+  return <span className="nameSkill">{name}</span>
 }
 
 Competence.propTypes = {
