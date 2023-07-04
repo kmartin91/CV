@@ -1,5 +1,5 @@
-import React from 'react'
 import PropTypes from 'prop-types'
+import React from 'react'
 import Competence from './Competence'
 
 interface PropsInterface {
@@ -11,14 +11,16 @@ const CompetencesList = ({ competencesList }: PropsInterface) => {
   return (
     <React.Fragment>
       <div className="headline headline_alt">{competencesList.label}</div>
-      {competencesList.values
-        .sort(
-          (a: CompetenceInterface, b: CompetenceInterface) =>
-            parseFloat(b.value) - parseFloat(a.value),
-        )
-        .map((competence: CompetenceInterface, index: number) => {
-          return <Competence key={index} competence={competence} />
-        })}
+      <div className="Competences">
+        {competencesList.values
+          .sort(
+            (a: CompetenceInterface, b: CompetenceInterface) =>
+              parseFloat(b.value) - parseFloat(a.value),
+          )
+          .map((competence: CompetenceInterface, index: number) => {
+            return <Competence key={index} competence={competence} />
+          })}
+      </div>
     </React.Fragment>
   )
 }

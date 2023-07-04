@@ -1,7 +1,7 @@
-import React from 'react'
+import { graphql, useStaticQuery } from 'gatsby'
 import _get from 'lodash/get'
+import React from 'react'
 import { FaDesktop } from 'react-icons/fa'
-import { useStaticQuery, graphql } from 'gatsby'
 
 import CompetencesList from './CompetencesList'
 
