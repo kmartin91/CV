@@ -1,5 +1,5 @@
 {
-  "information": "Développeur & passionné je dispose de 11 ans d'expérience professionnelle dans différentes technologies web (JS, .NET, PHP)\n\nVous pouvez retrouver mes différents projets JS et autre sur mon Git.",
+  "information": "Développeur & passionné je dispose de 13 ans d'expérience professionnelle dans différentes technologies web (JS, CSS, .NET, PHP)\n\nVous pouvez retrouver mes différents projets JS et autre sur mon Git. Ainsi que mes expériences CSS sur mon Codepen",
   "experiences": [
     {
       "entreprise": "Dailymotion",
@@ -124,11 +124,6 @@
       "url": "https://www.codingame.com/profile/8b9ffbe47e19f0772e75ed752756c54a838648"
     },
     {
-      "icon": "viadeo",
-      "name": "Viadeo",
-      "url": "https://www.viadeo.com/p/0021e7i9zgguplsq"
-    },
-    {
       "icon": "fileCode",
       "name": "Site perso",
       "url": "https://www.ckoisa.net/"
@@ -140,15 +135,19 @@
       "values": [
         {
           "name": "Javascript",
-          "value": "4.5"
+          "value": "5"
         },
         {
-          "name": "Node.JS",
-          "value": "3.6"
+          "name": "CSS",
+          "value": "5"
+        },
+        {
+          "name": "React",
+          "value": "5"
         },
         {
           "name": "Docker",
-          "value": "2.0"
+          "value": "4.0"
         },
         {
           "name": "PHP",
@@ -159,24 +158,16 @@
           "value": "3.7"
         },
         {
-          "name": "jQuery",
-          "value": "3.0"
-        },
-        {
-          "name": "AngularJS",
-          "value": "2.8"
-        },
-        {
           "name": "SQL",
           "value": "2.8"
         },
         {
-          "name": "React",
-          "value": "4.5"
-        },
-        {
           "name": "VueJS",
           "value": "3.2"
+        },
+        {
+          "name": "Angular",
+          "value": "3.0"
         }
       ]
     },
@@ -202,7 +193,7 @@
       "values": [
         {
           "name": "Anglais",
-          "value": "3.5"
+          "value": "4"
         },
         {
           "name": "Espagnol",
