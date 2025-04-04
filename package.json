@@ -12,7 +12,7 @@
     "gatsby-plugin-react-helmet": "^6.5.0",
     "gatsby-plugin-sass": "^6.5.0",
     "gatsby-plugin-sass-resources": "^3.0.1",
-    "gatsby-plugin-sharp": "^5.5.0",
+    "gatsby-plugin-sharp": "^5.8.1",
     "gatsby-remark-prettier": "^1.0.0",
     "gatsby-source-filesystem": "^5.5.0",
     "gatsby-transformer-json": "^5.5.0",
