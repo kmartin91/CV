@@ -4,24 +4,18 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Kevin Martin, Fullstack Developer in Royan, France</title>
-<meta name="description" content="Portfolio of Kevin Martin, fullstack developer based in Royan, on the French west coast. Thirteen years turning ideas into fast, considered web products with React, GraphQL, Node, .NET and PHP.">
+<!--app-head-->
 <meta name="author" content="Kevin Martin">
-<meta name="keywords" content="Kevin Martin, fullstack developer, front-end developer, React, GraphQL, Node.js, Royan, France, portfolio, web developer">
 <meta name="robots" content="index, follow">
-<link rel="canonical" href="https://www.kevinmartin.dev/">
-<meta name="theme-color" media="(prefers-color-scheme: light)" content="#3f6ef0">
-<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0e1118">
+<meta name="theme-color" content="#edece7">
 <meta name="application-name" content="Kevin Martin">
 
 <script>
 (function () {
+  // Light is the house theme; dark only when the visitor picked it.
   var t = 'light';
   try {
-    t = localStorage.getItem('theme') || '';
-    if (t !== 'dark' && t !== 'light') {
-      t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-    }
+    if (localStorage.getItem('theme') === 'dark') t = 'dark';
   } catch (e) {
     t = 'light';
   }
@@ -36,21 +30,15 @@
 
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Kevin Martin">
-<meta property="og:title" content="Kevin Martin, Fullstack Developer in Royan, France">
-<meta property="og:description" content="Thirteen years turning ideas into fast, considered web products. React, GraphQL, Node, .NET and PHP, with a designer's eye for the interface.">
-<meta property="og:url" content="https://www.kevinmartin.dev/">
 <meta property="og:image" content="https://www.kevinmartin.dev/assets/kevin.png">
-<meta property="og:image:alt" content="Portrait of Kevin Martin">
-<meta property="og:locale" content="en_US">
 
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Kevin Martin, Fullstack Developer in Royan, France">
-<meta name="twitter:description" content="Thirteen years turning ideas into fast, considered web products. React, GraphQL, Node, .NET and PHP.">
 <meta name="twitter:image" content="https://www.kevinmartin.dev/assets/kevin.png">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400..900&family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/src/style.css">
 
 <!--critical-css-->
 

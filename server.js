@@ -7,7 +7,7 @@ const port = process.env.PORT || 5173;
 const base = process.env.BASE || '/';
 
 const templateHtml = isProduction
-  ? await fs.readFile('./dist/client/index.html', 'utf-8')
+  ? await fs.readFile('./dist/server/template.html', 'utf-8')
   : '';
 
 const app = express();
@@ -45,8 +45,10 @@ app.use('*', async (req, res) => {
 
     const rendered = await render(url);
     const html = template
+      .replace('<html lang="en">', `<html lang="${rendered.lang}">`)
+      .replace('<!--app-head-->', rendered.head)
       .replace('<!--critical-css-->', criticalCss)
-      .replace('<!--app-html-->', rendered.html ?? '');
+      .replace('<!--app-html-->', rendered.html);
 
     res.status(200).set({ 'Content-Type': 'text/html' }).end(html);
   } catch (e) {

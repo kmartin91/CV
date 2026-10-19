@@ -1,0 +1,383 @@
+{
+  "meta": {
+    "lang": "fr",
+    "locale": "fr_FR",
+    "url": "https://www.kevinmartin.dev/fr/",
+    "title": "Kevin Martin, développeur fullstack à Royan",
+    "description": "Portfolio de Kevin Martin, développeur fullstack et creative coder à Royan. Treize ans de projets pour Dailymotion, Renault, Roole et Arval, et un Lab de projets perso : Loutre, Super Alex Kidd Maker, CSnake, deux apps iOS et cs2-ambilight.",
+    "keywords": "Kevin Martin, développeur fullstack, développeur créatif, freelance, React, GraphQL, Node.js, three.js, WebGL, Loutre, Super Alex Kidd Maker, CSnake, Simply Weather, This Is Simply Life, cs2-ambilight, Royan, Charente-Maritime",
+    "social": "Développeur fullstack le jour. Le soir : un SaaS de mock d'API, un éditeur de niveaux sur un jeu de 1986 recompilé, un Snake × Counter-Strike multijoueur, deux apps iOS et un light show Hue pour CS2.",
+    "imageAlt": "Portrait de Kevin Martin"
+  },
+  "ui": {
+    "skip": "Aller au contenu",
+    "loading": "Chargement",
+    "loader": ["Kevin Martin", "Portfolio · 2026", "On chauffe les particules"],
+    "home": "Kevin Martin, retour en haut",
+    "sections": "Sections",
+    "sound": "Son",
+    "theme": "Basculer entre thème clair et sombre",
+    "switch": {
+      "label": "EN",
+      "name": "English version",
+      "lang": "en",
+      "href": "/"
+    },
+    "heroLabel": "Développeur fullstack & creative coder",
+    "ctaLab": "Entrer dans le Lab",
+    "ctaContact": "Me contacter",
+    "stack": "Stack",
+    "about": "À propos",
+    "work": "Le jour",
+    "workHint": "Continuez à défiler →",
+    "lab": "Le soir",
+    "highlights": "Points forts",
+    "contact": "Contact",
+    "top": "Retour en haut ↑",
+    "snakeHint": "Psst… tapez « snake »",
+    "snake": {
+      "score": "Score",
+      "best": "Record",
+      "quit": "Quitter",
+      "play": "Flèches ou ZQSD pour bouger · Échap pour quitter",
+      "over": "Perdu · Espace pour rejouer · Échap pour quitter"
+    },
+    "ambilight": "Illustration : le battement du C4 à l'écran déborde sur le mur et les lampes Hue, puis l'explosion illumine la pièce",
+    "cursor": {
+      "top": "Haut",
+      "sound": "Son",
+      "lab": "Plonger",
+      "hi": "Coucou",
+      "explore": "Explorer",
+      "open": "Ouvrir",
+      "visit": "Voir",
+      "write": "Écrire",
+      "play": "Jouer",
+      "up": "Haut",
+      "lang": "EN"
+    }
+  },
+  "nav": [
+    { "href": "#work", "label": "Références" },
+    { "href": "#lab", "label": "Lab" },
+    { "href": "#about", "label": "À propos" },
+    { "href": "#contact", "label": "Contact" }
+  ],
+  "hero": {
+    "first": "Kevin",
+    "last": "Martin",
+    "role": "Développeur fullstack le jour, je fabrique",
+    "rotator": ["des jeux", "des apps iOS", "un SaaS", "des éditeurs de niveaux", "des light shows", "des outils bizarres"],
+    "roleEnd": "le soir venu.",
+    "intro": "Treize ans à livrer pour Dailymotion, le Groupe Renault, Roole et Arval. React et GraphQL côté interface, Node, .NET et PHP derrière. Basé à Royan, sur la côte atlantique.",
+    "location": "Royan, France · 45,62°N 1,03°O"
+  },
+  "stack": [
+    ["React", "TypeScript", "GraphQL", "Node.js", "Three.js", "WebAssembly", "CSS"],
+    ["Swift", "C", "Rust", "Cloudflare", "Socket.IO", ".NET", "PHP", "Docker"]
+  ],
+  "about": {
+    "lede": "Ce qui me passionne, c'est la couche que l'on ressent vraiment : l'interface. Le mouvement, la typo, le timing, tous ces petits détails qui donnent vie à un produit.",
+    "body": [
+      "J'ai construit les outils partenaires de Dailymotion, des modules web pour le Groupe Renault, l'espace adhérent de Roole et des applications de gestion de flotte pour Arval. Aujourd'hui, je fais tourner Studio KMA, mon propre studio, depuis Royan.",
+      "Le soir, je n'arrête pas de construire : un jeu console de 1986 recompilé en C, un service de mock d'API, deux apps iOS, un Snake multijoueur. Vous les trouverez plus bas, dans le Lab."
+    ],
+    "facts": [
+      { "k": "Aujourd'hui", "v": "Studio KMA, Royan" },
+      { "k": "Avant", "v": "Dailymotion · Renault · Roole · Arval" },
+      { "k": "Stack du jour", "v": "React · GraphQL · Node" },
+      { "k": "Le soir", "v": "Jeux, CodePen, musique" }
+    ]
+  },
+  "work": {
+    "title": "Quelques références",
+    "intro": "Treize ans à construire des produits avec des équipes qui livrent à grande échelle.",
+    "items": [
+      {
+        "client": "Dailymotion",
+        "title": "Plateforme partenaires",
+        "years": "2022 → Aujourd'hui",
+        "stack": ["React", "GraphQL", "Apollo"],
+        "href": "https://www.dailymotion.com/studio",
+        "shot": "/assets/work-dailymotion.webp",
+        "summary": "La plateforme où les partenaires vidéo publient et gèrent leur catalogue."
+      },
+      {
+        "client": "Roole",
+        "title": "Espace adhérent",
+        "years": "2021 → 2022",
+        "stack": ["React", "react-hook-form", ".NET"],
+        "href": "https://www.roole.fr",
+        "shot": "/assets/work-roole.webp",
+        "summary": "L'espace adhérent du club des automobilistes."
+      },
+      {
+        "client": "Groupe Renault",
+        "title": "Modules web",
+        "years": "2018 → 2021",
+        "stack": ["React", "Vue", "Svelte", "Node"],
+        "href": "https://www.renault.fr",
+        "shot": "/assets/work-renault.webp",
+        "summary": "Des modules réutilisables pour les sites de la marque Renault."
+      },
+      {
+        "client": "Arval",
+        "title": "Applications de flotte",
+        "years": "2015 → 2017",
+        "stack": ["Node", "Express", "Angular", "ASP.NET"],
+        "href": "https://www.arval.com",
+        "shot": "/assets/work-arval.webp",
+        "summary": "Des applications pour la filiale de location longue durée de BNP Paribas."
+      }
+    ]
+  },
+  "lab": {
+    "title": "Le Lab",
+    "intro": "Six choses construites le soir en 2026 : un SaaS, un éditeur de niveaux qui fait tourner un jeu de 1986 recompilé, un jeu de tir multijoueur, deux apps iOS et un light show pour Counter-Strike.",
+    "items": [
+      {
+        "id": "loutre",
+        "shape": "otter",
+        "num": "01",
+        "name": "Loutre",
+        "kind": "SaaS · Outil dev",
+        "year": "2026",
+        "status": "Bêta publique",
+        "live": true,
+        "tagline": "Votre API mockée, en ligne en 10 secondes.",
+        "description": [
+          "Collez un schéma d'API, obtenez une URL hébergée qui répond avec des données réalistes. Gratuit, sans compte. Loutre lit OpenAPI 3.0 à 3.2, Swagger 2.0, les types TypeScript, les collections Postman, Insomnia et Bruno, les fichiers HAR, json-server, les commandes curl et GraphQL, et convertit le tout en OpenAPI 3.1 avant de servir.",
+          "Les données sont générées une seule fois, avec une graine stable, et restent cohérentes : e-mails tirés des noms, villes avec leur code postal, totaux qui collent aux articles. Un seul appel à Claude par mock remplit les champs de texte libre avec des valeurs adaptées au domaine de l'API. Le service, lui, n'appelle jamais l'IA.",
+          "Ensuite, vous pilotez : statut, latence, taux d'erreur et scénarios par route ou par en-tête de requête, écritures conservées par mock, journal des requêtes avec rejeu, et un serveur MCP pour que Claude Code crée et pilote des mocks tout seul."
+        ],
+        "highlights": [
+          "Construit seul en trois semaines, du premier commit à la bêta publique",
+          "Un compilateur Effect typé pour plus de 10 formats d'API, testé sur ~100 specs réelles",
+          "Servi en edge sur Cloudflare Workers, KV et Durable Objects",
+          "Serveur MCP, CLI sur npm (npx loutre serve) et facturation Stripe",
+          "Audit de sécurité avant lancement : schema bombs, ReDoS, CSRF, contournement de quota, chaque correctif couvert par un test"
+        ],
+        "facts": [
+          { "k": "Démarré", "v": "Sept. 2026" },
+          { "k": "Plateforme", "v": "Web · CLI · MCP" },
+          { "k": "Tarifs", "v": "Gratuit · Pro 12 €/mois" },
+          { "k": "Taille", "v": "~28 000 lignes de TS" }
+        ],
+        "stack": ["TypeScript", "Effect", "Hono", "Cloudflare Workers", "Durable Objects", "React 19", "Claude API", "Stripe"],
+        "links": [
+          { "label": "Ouvrir loutre.app", "href": "https://loutre.app" },
+          { "label": "CLI sur npm", "href": "https://www.npmjs.com/package/loutre" }
+        ],
+        "shots": [
+          { "src": "/assets/lab/loutre-og.webp", "alt": "Loutre : votre API mockée en ligne en 10 secondes, à côté d'un exemple de réponse JSON", "kind": "wide" },
+          { "src": "/assets/lab/loutre-compare.webp", "alt": "La page de comparaison de Loutre face à Beeceptor, Mockfly et Postman", "kind": "wide" }
+        ]
+      },
+      {
+        "id": "alex-kidd-maker",
+        "shape": "onigiri",
+        "num": "02",
+        "name": "Super Alex Kidd Maker",
+        "aka": "Un Super Mario Maker pour Alex Kidd in Miracle World (Sega, 1986)",
+        "kind": "App desktop · Éditeur de niveaux",
+        "year": "2026",
+        "status": "Bêta 4",
+        "live": true,
+        "tagline": "Construisez un niveau, appuyez sur Play : il tourne sur le jeu de 1986, réécrit en C.",
+        "description": [
+          "Un éditeur de niveaux à la Mario Maker pour le classique de la Master System. Choisissez l'un des 17 décors du jeu, peignez avec ses 256 blocs bruts, placez n'importe quel ennemi n'importe où, scriptez des boss janken jusqu'à 15 coups de pierre-feuille-ciseaux, ajoutez véhicules, zones bonus et limites de temps. La ROM, c'est vous qui l'apportez.",
+          "Sous l'éditeur, tout le jeu a été traduit du code Z80 de la cartouche vers du C par un recompilateur que j'ai écrit en Python, puis réécrit à la main en C lisible, routine par routine. Il compile en WebAssembly pour l'éditeur et en binaire SDL2 natif.",
+          "La fidélité est prouvée de trois façons : chaque instruction Z80 face à un émulateur de référence, l'état complet de la machine comparé image par image avec la vraie ROM, et chaque fonction réécrite qui tourne à côté de sa jumelle générée pendant de vraies parties."
+        ],
+        "highlights": [
+          "Recompilation statique d'une cartouche Z80 : ~43 000 lignes de C, 665 routines reprises à la main",
+          "Limites de la console levées pour les niveaux persos : les niveaux « anarchie » bondés passent sans broncher",
+          "Partage en ligne avec codes de niveau, likes, records et galerie web, sur Cloudflare D1 et R2 pour 0 €",
+          "Versions signées et notarisées pour macOS, Windows et Linux, avec mise à jour automatique",
+          "Un bug de freeze du jeu original de 1986 découvert au passage"
+        ],
+        "facts": [
+          { "k": "Démarré", "v": "Sept. 2026" },
+          { "k": "Plateforme", "v": "macOS · Windows · Linux" },
+          { "k": "Moteur", "v": "Z80 → C → WebAssembly" },
+          { "k": "Taille", "v": "~65 000 lignes" }
+        ],
+        "stack": ["C", "WebAssembly", "Emscripten", "SDL2", "Python", "Tauri 2", "Rust", "Cloudflare D1 & R2"],
+        "links": [
+          { "label": "Télécharger la bêta", "href": "https://github.com/kmartin91/super-alex-kidd-maker/releases/latest" },
+          { "label": "Niveaux de la communauté", "href": "https://maker.kma.studio/levels/" }
+        ],
+        "shots": [
+          { "src": "/assets/lab/alexkidd-promo.webp", "alt": "Super Alex Kidd Maker en bêta, disponible sur Windows, macOS et Linux", "kind": "wide" },
+          { "src": "/assets/lab/alexkidd-icon.webp", "alt": "L'icône de Super Alex Kidd Maker, une boulette de riz en pixel art", "kind": "square" }
+        ]
+      },
+      {
+        "id": "csnake",
+        "shape": "snake",
+        "num": "03",
+        "name": "CSnake",
+        "aka": "Nom de code Snake Strike · Snake × Counter-Strike",
+        "kind": "Jeu navigateur · Multijoueur",
+        "year": "2026",
+        "status": "En ligne",
+        "live": true,
+        "tagline": "Snake rencontre Counter-Strike. Votre escouade vous suit en file indienne et tire là où vous visez.",
+        "description": [
+          "Vous dirigez le chef, vos soldats suivent comme la queue d'un serpent et chacun d'eux tire vers votre viseur. Plus l'escouade est longue, plus elle frappe fort, et plus elle fait une belle cible. Si le chef tombe, toute l'escouade tombe avec lui.",
+          "Trois modes tout droit sortis de CS : Deathmatch avec un Golden Deagle qui apparaît au milieu de la carte, Gun Game du pistolet à l'AWP, et un mode bombe classé où les T posent en A ou en B et les CT désamorcent. Grenades, brouillard de guerre et pas ennemis qu'on entend venir, sur une carte à la Dust2 avec ses callouts.",
+          "Jouez en solo contre des bots du 1v1 au 5v5, ou en ligne : partie rapide, salons privés avec un code de quatre lettres, chat et classement ELO."
+        ],
+        "highlights": [
+          "Un seul moteur déterministe partagé par le serveur, le solo et la démo du menu",
+          "Serveur Node qui fait autorité à 20 Hz, brouillard de guerre appliqué côté serveur : les wallhacks ne voient rien",
+          "Rangs CS:GO, 11 skins d'escouade, défis quotidiens et menus façon CS 1.6",
+          "Chaque son synthétisé en direct avec la Web Audio API, zéro fichier audio",
+          "PWA installable avec deux joysticks virtuels sur mobile"
+        ],
+        "facts": [
+          { "k": "Démarré", "v": "Avril 2026" },
+          { "k": "Plateforme", "v": "Navigateur · PWA" },
+          { "k": "Netcode", "v": "Socket.IO · 20 Hz" },
+          { "k": "Taille", "v": "~7 600 lignes" }
+        ],
+        "stack": ["JavaScript", "Node.js", "Socket.IO", "Canvas 2D", "Web Audio", "Docker"],
+        "links": [
+          { "label": "Jouer sur csnake.kma.studio", "href": "https://csnake.kma.studio" },
+          { "label": "Code source sur GitHub", "href": "https://github.com/kmartin91/snake-cs2d" }
+        ],
+        "shots": [
+          { "src": "/assets/lab/csnake-og.webp", "alt": "CSnake : une manche de Deathmatch contre des bots sur une carte à la Dust2, dans une fenêtre façon Counter-Strike 1.6", "kind": "wide" },
+          { "src": "/assets/lab/csnake-icon.webp", "alt": "L'icône de CSnake, un serpent orange sur un damier", "kind": "square" }
+        ]
+      },
+      {
+        "id": "this-is-simply-life",
+        "shape": "pulse",
+        "num": "04",
+        "name": "This Is Simply Life",
+        "kind": "Jeu iOS · Simulateur de vie",
+        "year": "2026",
+        "status": "Sur l'App Store",
+        "live": true,
+        "tagline": "Vous naissez quelque part en France. Après, tout est de votre faute.",
+        "description": [
+          "Un simulateur de vie textuel, écrit en français. Chaque année, vous touchez « +1 an » et la vie répond. Des choix courts, des conséquences longues : un contrat de mariage signé à 31 ans qui se réveille au divorce, une voie imposée à votre fille qui ressort lors d'un repas de famille.",
+          "Montez une boîte et faites-la entrer en Bourse, présentez-vous à la mairie et finissez ministre, bâtissez un patrimoine immobilier à crédit, fondez une famille, vieillissez pour de vrai avec retraites et bilans de santé. Votre meilleure vie devient un fantôme que chaque nouvelle partie tente de battre, et une dynastie se poursuit à travers vos héritiers.",
+          "Le moteur est en JavaScript pur, partagé par la version web et une app Expo entièrement native, sans WebView. Des simulateurs headless jouent des centaines de vies pour l'équilibrer, et le nouveau contenu arrive over-the-air, sans repasser par la validation de l'App Store."
+        ],
+        "highlights": [
+          "323 événements, 38 carrières et 199 missions de carrière",
+          "Arcs de mémoire : des choix vieux de plusieurs décennies vous rattrapent",
+          "8 simulateurs headless équilibrent le jeu sur des centaines de vies simulées",
+          "Interface React Native native, au-dessus d'un moteur JS pur partagé",
+          "Mises à jour de contenu over-the-air avec EAS"
+        ],
+        "facts": [
+          { "k": "Sortie", "v": "Sept. 2026" },
+          { "k": "Plateforme", "v": "iPhone · iPad" },
+          { "k": "Prix", "v": "Gratuit" },
+          { "k": "Langue", "v": "Français" }
+        ],
+        "stack": ["JavaScript", "Expo", "React Native", "React 19", "EAS Update", "AdMob"],
+        "links": [
+          { "label": "Télécharger sur l'App Store", "href": "https://apps.apple.com/fr/app/this-is-simply-life/id6805120204" }
+        ],
+        "shots": [
+          { "src": "/assets/lab/life-1.webp", "alt": "This Is Simply Life : écrivez toute une vie, année après année", "kind": "phone" },
+          { "src": "/assets/lab/life-2.webp", "alt": "Chaque choix vous engage pour vingt ans", "kind": "phone" },
+          { "src": "/assets/lab/life-3.webp", "alt": "Votre meilleure vie hante les suivantes sous forme de fantôme", "kind": "phone" }
+        ]
+      },
+      {
+        "id": "simply-weather",
+        "shape": "sun",
+        "num": "05",
+        "name": "Simply Weather",
+        "kind": "App iOS · Météo",
+        "year": "2026",
+        "status": "Sur l'App Store",
+        "live": true,
+        "tagline": "La météo en plein écran. Sans pub, sans compte, sans traceur.",
+        "description": [
+          "Une ville par écran, l'essentiel d'un coup d'œil : température, ressenti, la pluie à venir. Quatorze blocs à activer et réordonner par glisser-déposer, de la pluie dans l'heure à la qualité de l'air, aux pollens, au ciel étoilé et à la température de la mer.",
+          "La pluie est la star : détection au quart d'heure près, radar animé avec deux heures d'historique et 30 minutes de prévision, et un compte à rebours avant l'averse dans la Dynamic Island. Les modèles météo côte à côte : Météo-France, ECMWF, ICON, GFS et WeatherNext 2 de Google.",
+          "Construite avec des technos web et livrée en natif via Capacitor, avec du Swift là où ça compte : widgets, une Live Activity, une app Apple Watch avec complications et des raccourcis Siri. L'historique remonte jusqu'en 1940."
+        ],
+        "highlights": [
+          "14 blocs modulaires, 10 thèmes dont des préréglages pour daltoniens, une galerie de thèmes de la communauté",
+          "Compte à rebours de la pluie dans la Dynamic Island et complications Apple Watch",
+          "Comparaison de modèles, dont WeatherNext 2 de Google DeepMind",
+          "La météo de n'importe quel jour depuis 1940, avec normales et records",
+          "Tout reste sur l'appareil : pas de compte, pas de traceur, pas de pub"
+        ],
+        "facts": [
+          { "k": "Sortie", "v": "Juillet 2026" },
+          { "k": "Plateforme", "v": "iPhone · Apple Watch" },
+          { "k": "Prix", "v": "Gratuit" },
+          { "k": "Natif", "v": "4 cibles Swift" }
+        ],
+        "stack": ["TypeScript", "React 19", "TanStack Start", "Capacitor", "Swift", "WidgetKit", "ActivityKit", "Open-Meteo"],
+        "links": [
+          { "label": "Télécharger sur l'App Store", "href": "https://apps.apple.com/fr/app/simply-weather/id6795675441" }
+        ],
+        "shots": [
+          { "src": "/assets/lab/weather-1.webp", "alt": "L'écran d'accueil de Simply Weather : Paris, 22 degrés, de la pluie dans 30 minutes environ", "kind": "phone" },
+          { "src": "/assets/lab/weather-2.webp", "alt": "Le radar de pluie animé sur la France", "kind": "phone" },
+          { "src": "/assets/lab/weather-3.webp", "alt": "Les réglages de thème", "kind": "phone" }
+        ]
+      },
+      {
+        "id": "cs2-ambilight",
+        "shape": "ambilight",
+        "num": "06",
+        "name": "cs2-ambilight",
+        "kind": "Outil · Maison connectée",
+        "year": "2026",
+        "status": "Open source",
+        "live": false,
+        "tagline": "Vos lampes Philips Hue jouent le match de Counter-Strike 2 avec vous.",
+        "description": [
+          "Le battement du C4 s'accélère au vrai rythme des bips, l'explosion traverse la pièce en boule de feu puis en braises qui s'éteignent, les manches gagnées clignotent en rouge ou en bleu selon le camp vainqueur, et un balayage doré parcourt vos lampes quand vous êtes MVP de la manche.",
+          "Il lit la Game State Integration officielle de Valve : rien n'est injecté dans le jeu et la config s'installe toute seule. Les effets partent vers les ampoules à 50 images par seconde via l'API Hue Entertainment, puis chaque lampe retrouve exactement l'état dans lequel elle était.",
+          "La version 2 ajoute un vrai ambilight : un petit sidecar en Rust capture l'écran via DXGI, laisse le GPU réduire chaque image en une petite grille, et associe ses zones à l'emplacement de vos lampes dans la pièce."
+        ],
+        "highlights": [
+          "Éditeur de règles : 8 événements CS2 × 6 animations, avec couleur et vitesse",
+          "Streaming DTLS/UDP à 50 fps, avec repli en REST",
+          "Capture d'écran pour environ 0,1 % d'un cœur de CPU, dans un binaire de 220 Ko",
+          "Tourne sur le PC de jeu ou dans Docker sur un NAS"
+        ],
+        "facts": [
+          { "k": "Démarré", "v": "Sept. 2026" },
+          { "k": "Tourne sur", "v": "Windows · Linux · Docker" },
+          { "k": "Lampes", "v": "Philips Hue" },
+          { "k": "Taille", "v": "~3 200 lignes" }
+        ],
+        "stack": ["TypeScript", "Node.js", "Rust", "DXGI", "Hue Entertainment API", "Docker"],
+        "links": [
+          { "label": "Code source sur GitHub", "href": "https://github.com/kmartin91/cs2-ambilight" }
+        ],
+        "shots": [
+          { "src": "", "alt": "", "kind": "ambilight" }
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "title": ["Une idée farfelue ?", "On la construit."],
+    "text": "Une mission freelance, un projet pour Studio KMA, ou juste un mot sur une expérience du Lab : ma boîte mail est ouverte.",
+    "email": "bonjour@kma.studio",
+    "links": [
+      { "href": "https://github.com/kmartin91?tab=repositories", "label": "GitHub" },
+      { "href": "https://www.linkedin.com/in/kevin-martin-68126058/", "label": "LinkedIn" },
+      { "href": "https://codepen.io/plancheapain", "label": "CodePen" },
+      { "href": "https://kma.studio/", "label": "Studio KMA" }
+    ],
+    "availability": "Disponible pour quelques projets"
+  },
+  "footer": [
+    "© 2026 Kevin Martin · Studio KMA",
+    "Fait à Royan avec three.js, GSAP & Lenis"
+  ]
+}
